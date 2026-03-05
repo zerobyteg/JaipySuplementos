@@ -1,6 +1,6 @@
 export interface ProductVariant {
     id: string;
-    weight: '2 LBS' | '5 LBS' | '300g' | '1kg' | '25mg' | '50mg';
+    weight: '2 LBS' | '5 LBS' | '300g' | '1kg' | '405g' | '25mg' | '50mg' | '30 caps' | '60 caps' | '90 caps' | '120 caps' | '180 caps' | 'Liquid' | 'Unflavored';
     price: string;
     imageFileName: string;
 }
@@ -30,6 +30,22 @@ const musclePumpDescription = "Fórmula hardcore diseñada para proporcionar ene
 const testolanderBoosterDescription = "Eleva naturalmente la testosterona para maximizar la fuerza, la resistencia y el lívido. Diseñado para aumentar la masa muscular y llevar el rendimiento al siguiente nivel.";
 const tribulusTerrestrisDescription = "Extracto estandarizado de alta pureza que eleva la testosterona, el libido y la energía. Maximiza la quema de grasa y el desarrollo muscular para un rendimiento óptimo.";
 const ultraGlutamineDescription = "Glutamina 100% pura para prevenir el catabolismo y fortalecer el sistema inmune. Acelera la recuperación tras el ejercicio intenso para volver más fuerte.";
+
+const uc2Description = "UC-II® es colágeno tipo II no desnaturalizado que ayuda a mantener la salud de las articulaciones y mejora la movilidad y flexibilidad.";
+const citratoMagnesioDescription = "El citrato de magnesio es una forma altamente absorbible de magnesio que apoya la función muscular, nerviosa y la salud ósea.";
+const fiberDescription = "Suplemento de fibra natural para mejorar la digestión, promover la regularidad y apoyar la salud intestinal general.";
+const hairSkinNailsDescription = "Fórmula completa con biotina y vitaminas esenciales para fortalecer el cabello, mejorar la elasticidad de la piel y endurecer las uñas.";
+const hydrolizedCollagenDescription = "Colágeno hidrolizado de alta pureza para mejorar la salud de la piel, articulaciones y tejidos conectivos.";
+const landerDiureticDescription = "Fórmula natural diseñada para ayudar a eliminar el exceso de líquidos, reducir la hinchazón y mejorar la definición muscular.";
+const milkThistleDescription = "Extracto de cardo mariano que apoya la función hepática saludable y ayuda en los procesos de desintoxicación del cuerpo.";
+const multiCollagenDescription = "Mezcla de múltiples tipos de colágeno para un soporte integral de la piel, cabello, uñas y articulaciones.";
+const multiphaseDescription = "Suplemento multivitamínico y mineral de espectro completo para cubrir todas las necesidades nutricionales diarias.";
+const omega3Description = "Aceite de pescado rico en EPA y DHA para apoyar la salud cardiovascular, cerebral y reducir la inflamación.";
+const probioticDescription = "Mezcla de cepas probióticas para equilibrar la microbiota intestinal y fortalecer el sistema inmunológico.";
+const sawPalmettoDescription = "Extracto natural que apoya la salud de la próstata y mantiene el equilibrio hormonal masculino.";
+const vitamind3Description = "Vitamina D3 de alta potencia para fortalecer el sistema inmune, mejorar la absorción de calcio y apoyar la salud ósea.";
+const vitamincDescription = "Vitamina C pura para potenciar las defensas naturales, actuar como antioxidante y promover la síntesis de colágeno.";
+
 const PremiumWheyPrice2LB = '380.000';
 const PremiumWheyPrice5LB = '650.000';
 const HydroDefinitionPrice2LB = '530.000';
@@ -51,6 +67,22 @@ const musclePumpPrice = '255.000';
 const testolanderBoosterPrice = '190.000';
 const tribulusTerrestrisPrice = '145.000';
 const ultraGlutaminePrice = '190.000';
+
+const priceUC2 = '175.000';
+const priceCitratoMagnesio = '190.000';
+const priceFiber = '190.000';
+const priceHairSkinNails = '115.000';
+const priceHydrolizedCollagen180 = '170.000';
+const priceHydrolizedCollagen405 = '255.000';
+const priceLanderDiuretic = '130.000';
+const priceMilkThistle = '160.000';
+const priceMultiCollagenPlus = '360.000';
+const priceMultiphaseLanderfit = '155.000';
+const priceOmega3Landerfit = '195.000';
+const priceProbioticDualLiquid = '134.000';
+const priceSawPalmetto = '135.000';
+const priceVitaminaD3 = '690.000';
+const priceVitaminaC = '120.000';
 
 export const products: Product[] = [
     {
@@ -643,6 +675,168 @@ export const products: Product[] = [
         description: ultraGlutamineDescription,
         variants: [
             { id: '67-2lb', weight: '2 LBS', price: ultraGlutaminePrice, imageFileName: 'ULTRA-GLUTAMINA.jpg' },
+        ],
+    },
+    {
+        id: '68',
+        folder: 'wellness/UC II 30 capsulas',
+        name: 'UC II',
+        description: uc2Description,
+        variants: [
+            { id: '68-30caps', weight: '30 caps', price: priceUC2, imageFileName: 'UC2-1000x100px-1.jpg' },
+        ],
+    },
+    {
+        id: '69',
+        folder: 'wellness/citrato de magnesio',
+        name: 'Citrato de Magnesio',
+        description: citratoMagnesioDescription,
+        variants: [
+            { id: '69-caps', weight: '60 caps', price: priceCitratoMagnesio, imageFileName: 'citrato-de-magnesio.jpeg' },
+        ],
+    },
+    {
+        id: '70',
+        folder: 'wellness/fiber',
+        name: 'Fiber',
+        description: fiberDescription,
+        variants: [
+            { id: '70-caps', weight: '60 caps', price: priceFiber, imageFileName: 'FIBER.jpg' },
+        ],
+    },
+    {
+        id: '71',
+        folder: 'wellness/hair,skin and nails',
+        name: 'Hair, Skin and Nails',
+        description: hairSkinNailsDescription,
+        variants: [
+            { id: '71-caps', weight: '60 caps', price: priceHairSkinNails, imageFileName: 'HAIR-SKIN-AND-NAILS.jpg' },
+        ],
+    },
+    {
+        id: '72',
+        folder: 'wellness/hydrolized collegen',
+        name: 'Hydrolyzed Collagen - 180 Caps',
+        description: hydrolizedCollagenDescription,
+        variants: [
+            { id: '72-180caps', weight: '180 caps', price: priceHydrolizedCollagen180, imageFileName: 'Hydrolized-Collegen-180-Capsulas.jpg' },
+        ],
+    },
+    {
+        id: '84',
+        folder: 'wellness/hydrolized collegen',
+        name: 'Hydrolyzed Collagen - Orange',
+        description: hydrolizedCollagenDescription,
+        variants: [
+            { id: '84-orange', weight: '405g', price: priceHydrolizedCollagen405, imageFileName: 'Hydrolized-Orange.jpg' },
+        ],
+    },
+    {
+        id: '85',
+        folder: 'wellness/hydrolized collegen',
+        name: 'Hydrolyzed Collagen - Lemon Lime',
+        description: hydrolizedCollagenDescription,
+        variants: [
+            { id: '85-lemon', weight: '405g', price: priceHydrolizedCollagen405, imageFileName: 'Hydrolized-Collegen-Lemon-Lime.jpg' },
+        ],
+    },
+    {
+        id: '73',
+        folder: 'wellness/lander diuretic',
+        name: 'Lander Diuretic',
+        description: landerDiureticDescription,
+        variants: [
+            { id: '73-caps', weight: '60 caps', price: priceLanderDiuretic, imageFileName: 'LANDER-DIURETIC.jpg' },
+        ],
+    },
+    {
+        id: '74',
+        folder: 'wellness/milk thistle 500mg',
+        name: 'Milk Thistle 500mg',
+        description: milkThistleDescription,
+        variants: [
+            { id: '74-caps', weight: '60 caps', price: priceMilkThistle, imageFileName: 'milk.jpg' },
+        ],
+    },
+    {
+        id: '75',
+        folder: 'wellness/multi colageno',
+        name: 'Multi Hydrolyzed Collagen Plus - Cappuccino',
+        description: multiCollagenDescription,
+        variants: [
+            { id: '75-cap', weight: '1kg', price: priceMultiCollagenPlus, imageFileName: 'multi_collgen-1.jpg' },
+        ],
+    },
+    {
+        id: '82',
+        folder: 'wellness/multi colageno',
+        name: 'Multi Hydrolyzed Collagen Plus - Hazelnut Cream',
+        description: multiCollagenDescription,
+        variants: [
+            { id: '82-hazel', weight: '1kg', price: priceMultiCollagenPlus, imageFileName: 'multi_collgen_hazelnut.jpg' },
+        ],
+    },
+    {
+        id: '83',
+        folder: 'wellness/multi colageno',
+        name: 'Multi Hydrolyzed Collagen Plus - Unflavored',
+        description: multiCollagenDescription,
+        variants: [
+            { id: '83-unf', weight: 'Unflavored', price: priceMultiCollagenPlus, imageFileName: 'multi_collgen_unflavored.jpg' },
+        ],
+    },
+    {
+        id: '76',
+        folder: 'wellness/multiphase landerfit',
+        name: 'Multiphase Landerfit',
+        description: multiphaseDescription,
+        variants: [
+            { id: '76-caps', weight: '90 caps', price: priceMultiphaseLanderfit, imageFileName: 'MULTIPHASE.jpg' },
+        ],
+    },
+    {
+        id: '77',
+        folder: 'wellness/omega 3, aceite de pescado',
+        name: 'Omega 3',
+        description: omega3Description,
+        variants: [
+            { id: '77-caps', weight: '120 caps', price: priceOmega3Landerfit, imageFileName: 'omega-nuevo.jpeg' },
+        ],
+    },
+    {
+        id: '78',
+        folder: 'wellness/probiotic dual liquid',
+        name: 'Probiotic Dual Liquid',
+        description: probioticDescription,
+        variants: [
+            { id: '78-liquid', weight: 'Liquid', price: priceProbioticDualLiquid, imageFileName: 'Probiotic-web-1000x1000-1.jpg' },
+        ],
+    },
+    {
+        id: '79',
+        folder: 'wellness/saw palmetto',
+        name: 'Saw Palmetto',
+        description: sawPalmettoDescription,
+        variants: [
+            { id: '79-caps', weight: '60 caps', price: priceSawPalmetto, imageFileName: 'saw.jpg' },
+        ],
+    },
+    {
+        id: '80',
+        folder: 'wellness/vitaminas',
+        name: 'Vitamin D3',
+        description: vitamind3Description,
+        variants: [
+            { id: '80-d3', weight: '60 caps', price: priceVitaminaD3, imageFileName: 'D3-1000x100px-1.jpg' },
+        ],
+    },
+    {
+        id: '81',
+        folder: 'wellness/vitaminas',
+        name: 'Vitamin C',
+        description: vitamincDescription,
+        variants: [
+            { id: '81-vitc', weight: '60 caps', price: priceVitaminaC, imageFileName: 'VITAMINA-C.jpg' },
         ],
     }
 ];
