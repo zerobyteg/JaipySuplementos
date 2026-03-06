@@ -24,3 +24,13 @@ h1, h2, h3, .logo {
   letter-spacing: -0.05em;
   text-transform: uppercase;
 }
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}

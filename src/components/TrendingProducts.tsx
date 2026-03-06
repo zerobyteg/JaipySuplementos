@@ -7,10 +7,13 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 import { products } from '@/data/products';
+import { groupProducts } from '@/utils/productUtils';
+
+const groupedProducts = groupProducts(products);
 
 // Find the specific products requested
-const trendingProductIds = ['5', '49', '21']; // 5: Premium Whey Chocolate, 49: Creatine BR, 21: Vegan Protein Chocolate
-const trendingProducts = products.filter(p => trendingProductIds.includes(p.id))
+const trendingProductIds = ['premium-whey', 'creatine-br', 'vegan-protein'];
+const trendingProducts = groupedProducts.filter(p => trendingProductIds.includes(p.id))
     // we sort to ensure they appear in the exact order requested
     .sort((a, b) => trendingProductIds.indexOf(a.id) - trendingProductIds.indexOf(b.id));
 
@@ -87,7 +90,7 @@ const TrendingProducts = () => {
                                     <div className="flex flex-col">
                                         <span className="text-xs text-zinc-500 uppercase font-semibold tracking-wider mb-1">Precio</span>
                                         <span className="text-2xl sm:text-3xl font-black text-[#FFCC00] tracking-tight transition-all duration-300">
-                                            {product.variants.length > 1 ? product.variants[1].price : product.variants[0].price}
+                                            {product.variants[0].price}
                                         </span>
                                     </div>
                                 </div>
