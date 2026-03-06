@@ -60,8 +60,8 @@ const TrendingProducts = () => {
                             <div className="relative w-full aspect-square rounded-2xl overflow-hidden mb-6 bg-white border border-zinc-800/30">
                                 <Image
                                     src={(product.folder.includes('/') || product.folder === 'wellness' || product.folder === 'quemadores')
-                                        ? encodeURI(`/products/${product.folder}/${product.variants[0].imageFileName}`)
-                                        : encodeURI(`/products/proteins/${product.folder}/${product.variants[0].imageFileName}`)}
+                                        ? `/products/${product.folder}/${product.variants[0].imageFileName}`
+                                        : `/products/proteins/${product.folder}/${product.variants[0].imageFileName}`}
                                     alt={product.name}
                                     fill
                                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
