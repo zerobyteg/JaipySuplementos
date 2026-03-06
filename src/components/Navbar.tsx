@@ -54,7 +54,7 @@ const Navbar = () => {
 
             {/* Mobile Menu */}
             {isMobileMenuOpen && (
-                <div className="fixed inset-0 top-[81px] z-50 bg-black lg:hidden overflow-y-auto border-t border-white/5">
+                <div className="absolute top-[81px] left-0 w-full h-[calc(100vh-80px)] z-50 bg-black lg:hidden overflow-y-auto border-t border-white/5">
                     <div className="flex flex-col p-6 gap-8">
                         <div className="flex flex-col gap-6">
                             {navLinks.map((link) => (

@@ -3,6 +3,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowRight } from 'lucide-react';
 
 const Hero = () => {
@@ -64,14 +65,13 @@ const Hero = () => {
                         <div
                             className="relative z-10 w-full max-w-[500px] flex items-center justify-center"
                         >
-                            <img
+                            <Image
                                 src="/products/proteins/premium-whey/PREMIUM-WHEY-5LB-CHOCOLATE.png"
                                 alt="Premium Whey Protein"
-                                className="w-[80%] md:w-full object-contain drop-shadow-[0_20px_50px_rgba(0,0,0,0.5)] z-20"
-                                onError={(e) => {
-                                    // Fallback if image doesn't load
-                                    e.currentTarget.src = "/products/proteins/premium-whey/PREMIUM-WHEY-Chocolate.jpg"
-                                }}
+                                width={500}
+                                height={500}
+                                priority
+                                className="w-[80%] md:w-full h-auto object-contain drop-shadow-[0_20px_50px_rgba(0,0,0,0.5)] z-20"
                             />
                         </div>
                     </motion.div>
