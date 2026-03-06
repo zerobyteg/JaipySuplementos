@@ -83,6 +83,13 @@ export default function ProductCard({ product }: { product: GroupedProduct }) {
         activeVariant = product.variants.find(v => v.flavor === selectedFlavor) || product.variants[0];
     }
 
+    const [isLoading, setIsLoading] = useState(true);
+
+    // Reset loading state when the source image changes
+    useEffect(() => {
+        setIsLoading(true);
+    }, [activeVariant.imageFileName]);
+
     const scroll = (direction: 'left' | 'right') => {
         if (scrollRef.current) {
             const { scrollLeft, clientWidth } = scrollRef.current;
@@ -96,10 +103,17 @@ export default function ProductCard({ product }: { product: GroupedProduct }) {
         <div
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
-            className="group flex flex-col bg-zinc-900/50 hover:bg-zinc-900 border border-zinc-800/50 hover:border-zinc-700/80 rounded-3xl p-5 transition-all duration-300 hover:shadow-2xl hover:shadow-black"
+            className="group flex flex-col bg-zinc-900/50 hover:bg-zinc-900 border border-zinc-800/50 hover:border-zinc-700/80 rounded-3xl p-5 transition-all duration-300 hover:shadow-2xl hover:shadow-black h-full"
         >
             {/* Image Container */}
-            <div className="relative w-full aspect-square rounded-2xl overflow-hidden mb-6 bg-white border border-zinc-800/30">
+            <div className="relative w-full aspect-square rounded-2xl overflow-hidden mb-6 bg-white border border-zinc-800/30 flex items-center justify-center">
+                {/* Spinner Overlay */}
+                {isLoading && (
+                    <div className="absolute inset-0 z-10 flex items-center justify-center bg-zinc-900/5 backdrop-blur-[2px] transition-opacity duration-300">
+                        <div className="w-8 h-8 border-[3px] border-[#FFCC00]/20 border-t-[#FFCC00] rounded-full animate-spin shadow-[0_0_15px_rgba(255,204,0,0.1)]"></div>
+                    </div>
+                )}
+
                 <Image
                     src={(product.folder.includes('/') || product.folder === 'wellness' || product.folder === 'quemadores')
                         ? `/products/${product.folder}/${activeVariant.imageFileName}`
@@ -107,7 +121,9 @@ export default function ProductCard({ product }: { product: GroupedProduct }) {
                     alt={`${product.name} - ${activeVariant.flavor} - ${activeVariant.weight}`}
                     fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                    className="object-cover transition-transform duration-500 group-hover:scale-110"
+                    className={`object-cover transition-all duration-700 group-hover:scale-110 ${isLoading ? 'opacity-0 scale-95 blur-sm' : 'opacity-100 scale-100 blur-0'}`}
+                    onLoad={() => setIsLoading(false)}
+                    priority={false}
                 />
             </div>
 

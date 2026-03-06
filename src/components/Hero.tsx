@@ -1,12 +1,14 @@
 "use client";
 
-import React from 'react';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import Image from 'next/image';
 import { ArrowRight } from 'lucide-react';
 
 const Hero = () => {
+    const [isLoading, setIsLoading] = useState(true);
+
     return (
         <section className="relative w-full min-h-[85vh] flex items-center bg-[#0a0a0a] overflow-hidden pb-12">
             {/* Background elements */}
@@ -63,15 +65,22 @@ const Hero = () => {
 
                         {/* 3D Product Image (Static) */}
                         <div
-                            className="relative z-10 w-full max-w-[500px] flex items-center justify-center"
+                            className="relative z-10 w-full max-w-[500px] flex items-center justify-center min-h-[300px]"
                         >
+                            {isLoading && (
+                                <div className="absolute inset-0 z-30 flex items-center justify-center">
+                                    <div className="w-16 h-16 border-4 border-[#FFCC00]/20 border-t-[#FFCC00] rounded-full animate-spin"></div>
+                                </div>
+                            )}
+
                             <Image
                                 src="/products/proteins/premium-whey/PREMIUM-WHEY-5LB-CHOCOLATE.webp"
                                 alt="Premium Whey Protein"
                                 width={500}
                                 height={500}
                                 priority
-                                className="w-[80%] md:w-full h-auto object-contain drop-shadow-[0_20px_50px_rgba(0,0,0,0.5)] z-20"
+                                className={`w-[80%] md:w-full h-auto object-contain drop-shadow-[0_20px_50px_rgba(0,0,0,0.5)] z-20 transition-all duration-1000 ${isLoading ? 'opacity-0 scale-90 blur-xl' : 'opacity-100 scale-100 blur-0'}`}
+                                onLoad={() => setIsLoading(false)}
                             />
                         </div>
                     </motion.div>
