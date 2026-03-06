@@ -66,7 +66,7 @@ const Hero = () => {
                             className="relative z-10 w-full max-w-[500px] flex items-center justify-center"
                         >
                             <Image
-                                src="/products/proteins/premium-whey/PREMIUM-WHEY-5LB-CHOCOLATE.png"
+                                src="/products/proteins/premium-whey/PREMIUM-WHEY-5LB-CHOCOLATE.webp"
                                 alt="Premium Whey Protein"
                                 width={500}
                                 height={500}
