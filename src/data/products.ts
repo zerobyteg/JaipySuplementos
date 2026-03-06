@@ -479,7 +479,7 @@ export const products: Product[] = [
     },
     {
         id: '43',
-        folder: 'resistencia y recuperacion/BCAA revolution',
+        folder: 'Resistencia y recuperacion/BCAA revolution',
         name: 'BCAA Revolution - Blue Raspberry',
         description: bcaaDescription,
         variants: [
@@ -488,7 +488,7 @@ export const products: Product[] = [
     },
     {
         id: '44',
-        folder: 'resistencia y recuperacion/BCAA revolution',
+        folder: 'Resistencia y recuperacion/BCAA revolution',
         name: 'BCAA Revolution - Green Apple',
         description: bcaaDescription,
         variants: [
@@ -497,7 +497,7 @@ export const products: Product[] = [
     },
     {
         id: '45',
-        folder: 'resistencia y recuperacion/BCAA revolution',
+        folder: 'Resistencia y recuperacion/BCAA revolution',
         name: 'BCAA Revolution - Lemon Lime',
         description: bcaaDescription,
         variants: [
@@ -506,7 +506,7 @@ export const products: Product[] = [
     },
     {
         id: '46',
-        folder: 'resistencia y recuperacion/BCAA revolution',
+        folder: 'Resistencia y recuperacion/BCAA revolution',
         name: 'BCAA Revolution - Pineapple',
         description: bcaaDescription,
         variants: [
@@ -515,7 +515,7 @@ export const products: Product[] = [
     },
     {
         id: '47',
-        folder: 'resistencia y recuperacion/BCAA revolution',
+        folder: 'Resistencia y recuperacion/BCAA revolution',
         name: 'BCAA Revolution - Watermelon',
         description: bcaaDescription,
         variants: [
@@ -524,7 +524,7 @@ export const products: Product[] = [
     },
     {
         id: '48',
-        folder: 'resistencia y recuperacion/Creatina',
+        folder: 'Resistencia y recuperacion/Creatina',
         name: 'Creatine',
         description: creatineUSADescription,
         variants: [
@@ -533,7 +533,7 @@ export const products: Product[] = [
     },
     {
         id: '49',
-        folder: 'resistencia y recuperacion/Creatina',
+        folder: 'Resistencia y recuperacion/Creatina',
         name: 'Creatine BR',
         description: creatineBRDescription,
         variants: [
@@ -543,7 +543,7 @@ export const products: Product[] = [
     },
     {
         id: '51',
-        folder: 'resistencia y recuperacion/Creatina',
+        folder: 'Resistencia y recuperacion/Creatina',
         name: 'L-Carnitine - Cola',
         description: lcreatineDescription,
         variants: [
@@ -552,7 +552,7 @@ export const products: Product[] = [
     },
     {
         id: '52',
-        folder: 'resistencia y recuperacion/Creatina',
+        folder: 'Resistencia y recuperacion/Creatina',
         name: 'L-Carnitine - Grape',
         description: lcreatineDescription,
         variants: [
@@ -561,7 +561,7 @@ export const products: Product[] = [
     },
     {
         id: '53',
-        folder: 'resistencia y recuperacion/Creatina',
+        folder: 'Resistencia y recuperacion/Creatina',
         name: 'L-Carnitine - Orange',
         description: lcreatineDescription,
         variants: [
@@ -570,7 +570,7 @@ export const products: Product[] = [
     },
     {
         id: '54',
-        folder: 'resistencia y recuperacion/amino revolution',
+        folder: 'Resistencia y recuperacion/amino revolution',
         name: 'Amino Revolution - Fruit Punch',
         description: aminoRevolutionDescription,
         variants: [
@@ -579,7 +579,7 @@ export const products: Product[] = [
     },
     {
         id: '55',
-        folder: 'resistencia y recuperacion/amino revolution',
+        folder: 'Resistencia y recuperacion/amino revolution',
         name: 'Amino Revolution - Grape',
         description: aminoRevolutionDescription,
         variants: [
@@ -588,7 +588,7 @@ export const products: Product[] = [
     },
     {
         id: '56',
-        folder: 'resistencia y recuperacion/amino revolution',
+        folder: 'Resistencia y recuperacion/amino revolution',
         name: 'Amino Revolution - Green Apple',
         description: aminoRevolutionDescription,
         variants: [
@@ -597,7 +597,7 @@ export const products: Product[] = [
     },
     {
         id: '57',
-        folder: 'resistencia y recuperacion/amino revolution',
+        folder: 'Resistencia y recuperacion/amino revolution',
         name: 'Amino Revolution - Raspberry Lemonade',
         description: aminoRevolutionDescription,
         variants: [
@@ -606,7 +606,7 @@ export const products: Product[] = [
     },
     {
         id: '58',
-        folder: 'resistencia y recuperacion/amino revolution',
+        folder: 'Resistencia y recuperacion/amino revolution',
         name: 'Amino Revolution - Coconut',
         description: aminoRevolutionDescription,
         variants: [
@@ -615,7 +615,7 @@ export const products: Product[] = [
     },
     {
         id: '59',
-        folder: 'resistencia y recuperacion/amino revolution',
+        folder: 'Resistencia y recuperacion/amino revolution',
         name: 'Amino Revolution - Tangerine',
         description: aminoRevolutionDescription,
         variants: [
@@ -625,7 +625,7 @@ export const products: Product[] = [
 
     {
         id: '62',
-        folder: 'resistencia y recuperacion/glucosamina',
+        folder: 'Resistencia y recuperacion/glucosamina',
         name: 'GLUCOSAMINE Y CHONDROITIN CON MSM',
         description: glucosamineDescription,
         variants: [
@@ -634,7 +634,7 @@ export const products: Product[] = [
     },
     {
         id: '63',
-        folder: 'resistencia y recuperacion/muscle pump',
+        folder: 'Resistencia y recuperacion/muscle pump',
         name: 'Muscle Pump - Fruit Punch',
         description: musclePumpDescription,
         variants: [
@@ -643,7 +643,7 @@ export const products: Product[] = [
     },
     {
         id: '64',
-        folder: 'resistencia y recuperacion/muscle pump',
+        folder: 'Resistencia y recuperacion/muscle pump',
         name: 'Muscle Pump - Key Lime Ice',
         description: musclePumpDescription,
         variants: [
@@ -652,7 +652,7 @@ export const products: Product[] = [
     },
     {
         id: '65',
-        folder: 'resistencia y recuperacion/testolander booster',
+        folder: 'Resistencia y recuperacion/testolander booster',
         name: 'Testolander Booster',
         description: testolanderBoosterDescription,
         variants: [
@@ -661,7 +661,7 @@ export const products: Product[] = [
     },
     {
         id: '66',
-        folder: 'resistencia y recuperacion/tribulus',
+        folder: 'Resistencia y recuperacion/tribulus',
         name: 'Tribulus Terrestris',
         description: tribulusTerrestrisDescription,
         variants: [
@@ -670,7 +670,7 @@ export const products: Product[] = [
     },
     {
         id: '67',
-        folder: 'resistencia y recuperacion/ultra glutamine',
+        folder: 'Resistencia y recuperacion/ultra glutamine',
         name: 'Ultra Glutamine',
         description: ultraGlutamineDescription,
         variants: [
