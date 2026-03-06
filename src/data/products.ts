@@ -751,7 +751,7 @@ export const products: Product[] = [
     },
     {
         id: '74',
-        folder: 'wellness/milk thistle 500mg',
+        folder: 'wellness/milk-thistle',
         name: 'Milk Thistle 500mg',
         description: milkThistleDescription,
         variants: [
@@ -760,7 +760,7 @@ export const products: Product[] = [
     },
     {
         id: '75',
-        folder: 'wellness/multi colageno',
+        folder: 'wellness/multi-colageno',
         name: 'Multi Hydrolyzed Collagen Plus - Cappuccino',
         description: multiCollagenDescription,
         variants: [
@@ -769,7 +769,7 @@ export const products: Product[] = [
     },
     {
         id: '82',
-        folder: 'wellness/multi colageno',
+        folder: 'wellness/multi-colageno',
         name: 'Multi Hydrolyzed Collagen Plus - Hazelnut Cream',
         description: multiCollagenDescription,
         variants: [
@@ -778,7 +778,7 @@ export const products: Product[] = [
     },
     {
         id: '83',
-        folder: 'wellness/multi colageno',
+        folder: 'wellness/multi-colageno',
         name: 'Multi Hydrolyzed Collagen Plus - Unflavored',
         description: multiCollagenDescription,
         variants: [
@@ -787,7 +787,7 @@ export const products: Product[] = [
     },
     {
         id: '76',
-        folder: 'wellness/multiphase landerfit',
+        folder: 'wellness/multiphase-landerfit',
         name: 'Multiphase Landerfit',
         description: multiphaseDescription,
         variants: [
@@ -796,7 +796,7 @@ export const products: Product[] = [
     },
     {
         id: '77',
-        folder: 'wellness/omega 3, aceite de pescado',
+        folder: 'wellness/omega-3',
         name: 'Omega 3',
         description: omega3Description,
         variants: [
@@ -805,7 +805,7 @@ export const products: Product[] = [
     },
     {
         id: '78',
-        folder: 'wellness/probiotic dual liquid',
+        folder: 'wellness/probiotic-dual-liquid',
         name: 'Probiotic Dual Liquid',
         description: probioticDescription,
         variants: [
@@ -814,7 +814,7 @@ export const products: Product[] = [
     },
     {
         id: '79',
-        folder: 'wellness/saw palmetto',
+        folder: 'wellness/saw-palmetto',
         name: 'Saw Palmetto',
         description: sawPalmettoDescription,
         variants: [
@@ -827,7 +827,7 @@ export const products: Product[] = [
         name: 'Vitamin D3',
         description: vitamind3Description,
         variants: [
-            { id: '80-d3', weight: '60 caps', price: priceVitaminaD3, imageFileName: 'D3-1000x100px-1.webp' },
+            { id: '80-d3', weight: '60 caps', price: priceVitaminaD3, imageFileName: 'vitamin-d3.webp' },
         ],
     },
     {
@@ -836,7 +836,7 @@ export const products: Product[] = [
         name: 'Vitamin C',
         description: vitamincDescription,
         variants: [
-            { id: '81-vitc', weight: '60 caps', price: priceVitaminaC, imageFileName: 'VITAMINA-C.webp' },
+            { id: '81-vitc', weight: '60 caps', price: priceVitaminaC, imageFileName: 'vitamina-c.webp' },
         ],
     }
 ];
