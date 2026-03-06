@@ -91,8 +91,8 @@ export const products: Product[] = [
         name: 'Premium Whey - Acai',
         description: PremiumWheyDescription,
         variants: [
-            { id: '1-2lb', weight: '2 LBS', price: PremiumWheyPrice2LB, imageFileName: 'PREMIUM-WHEY-Acai.jpg' },
-            { id: '1-5lb', weight: '5 LBS', price: PremiumWheyPrice5LB, imageFileName: 'PREMIUM-WHEY-5LB-ACAI.png' },
+            { id: '1-2lb', weight: '2 LBS', price: PremiumWheyPrice2LB, imageFileName: 'PREMIUM-WHEY-Acai.webp' },
+            { id: '1-5lb', weight: '5 LBS', price: PremiumWheyPrice5LB, imageFileName: 'PREMIUM-WHEY-5LB-ACAI.webp' },
         ],
     },
     {
@@ -101,8 +101,8 @@ export const products: Product[] = [
         name: 'Premium Whey - Banana Split',
         description: PremiumWheyDescription,
         variants: [
-            { id: '2-2lb', weight: '2 LBS', price: PremiumWheyPrice2LB, imageFileName: 'PREMIUM-WHEY-Banana-Split.jpg' },
-            { id: '2-5lb', weight: '5 LBS', price: PremiumWheyPrice5LB, imageFileName: 'PREMIUM-WHEY-5LB-BANANA-SPLIT.png' },
+            { id: '2-2lb', weight: '2 LBS', price: PremiumWheyPrice2LB, imageFileName: 'PREMIUM-WHEY-Banana-Split.webp' },
+            { id: '2-5lb', weight: '5 LBS', price: PremiumWheyPrice5LB, imageFileName: 'PREMIUM-WHEY-5LB-BANANA-SPLIT.webp' },
         ],
     },
     {
@@ -111,8 +111,8 @@ export const products: Product[] = [
         name: 'Premium Whey - Caramel',
         description: PremiumWheyDescription,
         variants: [
-            { id: '3-2lb', weight: '2 LBS', price: PremiumWheyPrice2LB, imageFileName: 'PREMIUM-WHEY-Caramel.jpg' },
-            { id: '3-5lb', weight: '5 LBS', price: PremiumWheyPrice5LB, imageFileName: 'PREMIUM-WHEY-5LB-CARAMEL.png' },
+            { id: '3-2lb', weight: '2 LBS', price: PremiumWheyPrice2LB, imageFileName: 'PREMIUM-WHEY-Caramel.webp' },
+            { id: '3-5lb', weight: '5 LBS', price: PremiumWheyPrice5LB, imageFileName: 'PREMIUM-WHEY-5LB-CARAMEL.webp' },
         ],
     },
     {
@@ -121,8 +121,8 @@ export const products: Product[] = [
         name: 'Premium Whey - Chocolate Peanut Butter',
         description: PremiumWheyDescription,
         variants: [
-            { id: '4-2lb', weight: '2 LBS', price: PremiumWheyPrice2LB, imageFileName: 'PREMIUM-WHEY-Chocolate-Peanut-Butter.jpg' },
-            { id: '4-5lb', weight: '5 LBS', price: PremiumWheyPrice5LB, imageFileName: 'PREMIUM-WHEY-5LB-CHOCOLATE-PEANUT-BUTTER.png' },
+            { id: '4-2lb', weight: '2 LBS', price: PremiumWheyPrice2LB, imageFileName: 'PREMIUM-WHEY-Chocolate-Peanut-Butter.webp' },
+            { id: '4-5lb', weight: '5 LBS', price: PremiumWheyPrice5LB, imageFileName: 'PREMIUM-WHEY-5LB-CHOCOLATE-PEANUT-BUTTER.webp' },
         ],
     },
     {
@@ -131,8 +131,8 @@ export const products: Product[] = [
         name: 'Premium Whey - Chocolate',
         description: PremiumWheyDescription,
         variants: [
-            { id: '5-2lb', weight: '2 LBS', price: PremiumWheyPrice2LB, imageFileName: 'PREMIUM-WHEY-Chocolate.jpg' },
-            { id: '5-5lb', weight: '5 LBS', price: PremiumWheyPrice5LB, imageFileName: 'PREMIUM-WHEY-5LB-CHOCOLATE.png' },
+            { id: '5-2lb', weight: '2 LBS', price: PremiumWheyPrice2LB, imageFileName: 'PREMIUM-WHEY-Chocolate.webp' },
+            { id: '5-5lb', weight: '5 LBS', price: PremiumWheyPrice5LB, imageFileName: 'PREMIUM-WHEY-5LB-CHOCOLATE.webp' },
         ],
     },
     {
@@ -141,8 +141,8 @@ export const products: Product[] = [
         name: 'Premium Whey - Cookies and Cream',
         description: PremiumWheyDescription,
         variants: [
-            { id: '6-2lb', weight: '2 LBS', price: PremiumWheyPrice2LB, imageFileName: 'PREMIUM-WHEY-Cookies-and-Cream.jpg' },
-            { id: '6-5lb', weight: '5 LBS', price: PremiumWheyPrice5LB, imageFileName: 'PREMIUM-WHEY-5LB-COOKIES-AND-CREAM.png' },
+            { id: '6-2lb', weight: '2 LBS', price: PremiumWheyPrice2LB, imageFileName: 'PREMIUM-WHEY-Cookies-and-Cream.webp' },
+            { id: '6-5lb', weight: '5 LBS', price: PremiumWheyPrice5LB, imageFileName: 'PREMIUM-WHEY-5LB-COOKIES-AND-CREAM.webp' },
         ],
     },
     {
@@ -151,8 +151,8 @@ export const products: Product[] = [
         name: 'Premium Whey - Dulce de Leche',
         description: PremiumWheyDescription,
         variants: [
-            { id: '7-2lb', weight: '2 LBS', price: PremiumWheyPrice2LB, imageFileName: 'PREMIUM-WHEY-Dulce-de-Leche.jpg' },
-            { id: '7-5lb', weight: '5 LBS', price: PremiumWheyPrice5LB, imageFileName: 'PREMIUM-WHEY-5LB-DULCE-DE-LECHE.png' },
+            { id: '7-2lb', weight: '2 LBS', price: PremiumWheyPrice2LB, imageFileName: 'PREMIUM-WHEY-Dulce-de-Leche.webp' },
+            { id: '7-5lb', weight: '5 LBS', price: PremiumWheyPrice5LB, imageFileName: 'PREMIUM-WHEY-5LB-DULCE-DE-LECHE.webp' },
         ],
     },
     {
@@ -161,8 +161,8 @@ export const products: Product[] = [
         name: 'Premium Whey - Peanut Butter',
         description: PremiumWheyDescription,
         variants: [
-            { id: '8-2lb', weight: '2 LBS', price: PremiumWheyPrice2LB, imageFileName: 'PREMIUM-WHEY-Peanut-Butter.jpg' },
-            { id: '8-5lb', weight: '5 LBS', price: PremiumWheyPrice5LB, imageFileName: 'PREMIUM-WHEY-5LB-PEANUT-BUTTER.png' },
+            { id: '8-2lb', weight: '2 LBS', price: PremiumWheyPrice2LB, imageFileName: 'PREMIUM-WHEY-Peanut-Butter.webp' },
+            { id: '8-5lb', weight: '5 LBS', price: PremiumWheyPrice5LB, imageFileName: 'PREMIUM-WHEY-5LB-PEANUT-BUTTER.webp' },
         ],
     },
     {
@@ -171,8 +171,8 @@ export const products: Product[] = [
         name: 'Premium Whey - Strawberry',
         description: PremiumWheyDescription,
         variants: [
-            { id: '9-2lb', weight: '2 LBS', price: PremiumWheyPrice2LB, imageFileName: 'PREMIUM-WHEY-Strawberry.jpg' },
-            { id: '9-5lb', weight: '5 LBS', price: PremiumWheyPrice5LB, imageFileName: 'PREMIUM-WHEY-5LB-STRAWBERRY.png' },
+            { id: '9-2lb', weight: '2 LBS', price: PremiumWheyPrice2LB, imageFileName: 'PREMIUM-WHEY-Strawberry.webp' },
+            { id: '9-5lb', weight: '5 LBS', price: PremiumWheyPrice5LB, imageFileName: 'PREMIUM-WHEY-5LB-STRAWBERRY.webp' },
         ],
     },
     {
@@ -181,8 +181,8 @@ export const products: Product[] = [
         name: 'Premium Whey - Vainilla',
         description: PremiumWheyDescription,
         variants: [
-            { id: '10-2lb', weight: '2 LBS', price: PremiumWheyPrice2LB, imageFileName: 'PREMIUM-WHEY-Vainilla.jpg' },
-            { id: '10-5lb', weight: '5 LBS', price: PremiumWheyPrice5LB, imageFileName: 'PREMIUM-WHEY-5LB-VANILLA.png' },
+            { id: '10-2lb', weight: '2 LBS', price: PremiumWheyPrice2LB, imageFileName: 'PREMIUM-WHEY-Vainilla.webp' },
+            { id: '10-5lb', weight: '5 LBS', price: PremiumWheyPrice5LB, imageFileName: 'PREMIUM-WHEY-5LB-VANILLA.webp' },
         ],
     },
     {
@@ -191,8 +191,8 @@ export const products: Product[] = [
         name: 'Hydro Definition - Chocolate',
         description: HydroDefinitionDescription,
         variants: [
-            { id: '11-2lb', weight: '2 LBS', price: HydroDefinitionPrice2LB, imageFileName: 'Hydro-Chocolate.jpg' },
-            { id: '11-5lb', weight: '5 LBS', price: HydroDefinitionPrice5LB, imageFileName: 'Hydro-Chocolate5lb.jpg' },
+            { id: '11-2lb', weight: '2 LBS', price: HydroDefinitionPrice2LB, imageFileName: 'Hydro-Chocolate.webp' },
+            { id: '11-5lb', weight: '5 LBS', price: HydroDefinitionPrice5LB, imageFileName: 'Hydro-Chocolate5lb.webp' },
         ],
     },
     {
@@ -201,8 +201,8 @@ export const products: Product[] = [
         name: 'Hydro Definition - Coconut',
         description: HydroDefinitionDescription,
         variants: [
-            { id: '12-2lb', weight: '2 LBS', price: HydroDefinitionPrice2LB, imageFileName: 'Hydro-Coconut.jpg' },
-            { id: '12-5lb', weight: '5 LBS', price: HydroDefinitionPrice5LB, imageFileName: 'Hydro-Coconut5lb.jpg' },
+            { id: '12-2lb', weight: '2 LBS', price: HydroDefinitionPrice2LB, imageFileName: 'Hydro-Coconut.webp' },
+            { id: '12-5lb', weight: '5 LBS', price: HydroDefinitionPrice5LB, imageFileName: 'Hydro-Coconut5lb.webp' },
         ],
     },
     {
@@ -211,8 +211,8 @@ export const products: Product[] = [
         name: 'Hydro Definition - Strawberry',
         description: HydroDefinitionDescription,
         variants: [
-            { id: '13-2lb', weight: '2 LBS', price: HydroDefinitionPrice2LB, imageFileName: 'Hydro-Strawberry.jpg' },
-            { id: '13-5lb', weight: '5 LBS', price: HydroDefinitionPrice5LB, imageFileName: 'Hydro-Strawberry5lb.jpg' },
+            { id: '13-2lb', weight: '2 LBS', price: HydroDefinitionPrice2LB, imageFileName: 'Hydro-Strawberry.webp' },
+            { id: '13-5lb', weight: '5 LBS', price: HydroDefinitionPrice5LB, imageFileName: 'Hydro-Strawberry5lb.webp' },
         ],
     },
     {
@@ -221,8 +221,8 @@ export const products: Product[] = [
         name: 'Hydro Definition - Vainilla',
         description: HydroDefinitionDescription,
         variants: [
-            { id: '14-2lb', weight: '2 LBS', price: HydroDefinitionPrice2LB, imageFileName: 'Hydro-Vainilla.jpg' },
-            { id: '14-5lb', weight: '5 LBS', price: HydroDefinitionPrice5LB, imageFileName: 'Hydro-Vainilla5lb.jpg' },
+            { id: '14-2lb', weight: '2 LBS', price: HydroDefinitionPrice2LB, imageFileName: 'Hydro-Vainilla.webp' },
+            { id: '14-5lb', weight: '5 LBS', price: HydroDefinitionPrice5LB, imageFileName: 'Hydro-Vainilla5lb.webp' },
         ],
     },
     {
@@ -231,7 +231,7 @@ export const products: Product[] = [
         name: 'Hydro Definition - Cafe',
         description: HydroDefinitionDescription,
         variants: [
-            { id: '15-2lb', weight: '2 LBS', price: HydroDefinitionPrice2LB, imageFileName: 'Hydro-Definition-Cafe.jpeg' },
+            { id: '15-2lb', weight: '2 LBS', price: HydroDefinitionPrice2LB, imageFileName: 'Hydro-Definition-Cafe.webp' },
         ],
     },
     {
@@ -240,7 +240,7 @@ export const products: Product[] = [
         name: 'Hydro Definition - Cookies and Cream',
         description: HydroDefinitionDescription,
         variants: [
-            { id: '16-2lb', weight: '2 LBS', price: HydroDefinitionPrice2LB, imageFileName: 'Hydro-Definition-Cookies-and-Cream.jpeg' },
+            { id: '16-2lb', weight: '2 LBS', price: HydroDefinitionPrice2LB, imageFileName: 'Hydro-Definition-Cookies-and-Cream.webp' },
         ],
     },
     {
@@ -249,7 +249,7 @@ export const products: Product[] = [
         name: 'Hydro Definition - Peanut Butter',
         description: HydroDefinitionDescription,
         variants: [
-            { id: '17-2lb', weight: '2 LBS', price: HydroDefinitionPrice2LB, imageFileName: 'Hydro-Definition-Peanut-butter.jpeg' },
+            { id: '17-2lb', weight: '2 LBS', price: HydroDefinitionPrice2LB, imageFileName: 'Hydro-Definition-Peanut-butter.webp' },
         ],
     },
     {
@@ -258,7 +258,7 @@ export const products: Product[] = [
         name: 'Hydro Definition Stevia - Chocolate',
         description: HydroDefinitionDescription,
         variants: [
-            { id: '18-2lb', weight: '2 LBS', price: HydroDefinitionPrice2LB, imageFileName: 'Hydro-Chocolate-Stevia.jpg' },
+            { id: '18-2lb', weight: '2 LBS', price: HydroDefinitionPrice2LB, imageFileName: 'Hydro-Chocolate-Stevia.webp' },
         ],
     },
     {
@@ -267,7 +267,7 @@ export const products: Product[] = [
         name: 'Hydro Definition Stevia - Strawberry',
         description: HydroDefinitionDescription,
         variants: [
-            { id: '19-2lb', weight: '2 LBS', price: HydroDefinitionPrice2LB, imageFileName: 'Hydro-Strawberry-Stevia.jpg' },
+            { id: '19-2lb', weight: '2 LBS', price: HydroDefinitionPrice2LB, imageFileName: 'Hydro-Strawberry-Stevia.webp' },
         ],
     },
     {
@@ -276,7 +276,7 @@ export const products: Product[] = [
         name: 'Hydro Definition Stevia - Vainilla',
         description: HydroDefinitionDescription,
         variants: [
-            { id: '20-2lb', weight: '2 LBS', price: HydroDefinitionPrice2LB, imageFileName: 'Hydro-Vainilla-Stevia.jpg' },
+            { id: '20-2lb', weight: '2 LBS', price: HydroDefinitionPrice2LB, imageFileName: 'Hydro-Vainilla-Stevia.webp' },
         ],
     },
     {
@@ -285,7 +285,7 @@ export const products: Product[] = [
         name: 'Vegan Protein - Chocolate',
         description: VeganProteinDescription,
         variants: [
-            { id: '21-2lb', weight: '2 LBS', price: veganProteinPrice, imageFileName: 'VEGAN-PROTEIN-Chocolate.jpg' },
+            { id: '21-2lb', weight: '2 LBS', price: veganProteinPrice, imageFileName: 'VEGAN-PROTEIN-Chocolate.webp' },
         ],
     },
     {
@@ -294,7 +294,7 @@ export const products: Product[] = [
         name: 'Vegan Protein - Vainilla',
         description: VeganProteinDescription,
         variants: [
-            { id: '22-2lb', weight: '2 LBS', price: veganProteinPrice, imageFileName: 'VEGAN-PROTEIN-Vainilla.jpg' },
+            { id: '22-2lb', weight: '2 LBS', price: veganProteinPrice, imageFileName: 'VEGAN-PROTEIN-Vainilla.webp' },
         ],
     },
     {
@@ -303,7 +303,7 @@ export const products: Product[] = [
         name: 'Womens Protein - Chocolate',
         description: WomensProteinDescription,
         variants: [
-            { id: '23-2lb', weight: '2 LBS', price: WomensProteinPrice, imageFileName: 'WOMENS-PROTEIN-Chocolate.jpg' },
+            { id: '23-2lb', weight: '2 LBS', price: WomensProteinPrice, imageFileName: 'WOMENS-PROTEIN-Chocolate.webp' },
         ],
     },
     {
@@ -312,7 +312,7 @@ export const products: Product[] = [
         name: 'Womens Protein - Pineapple Coconut',
         description: WomensProteinDescription,
         variants: [
-            { id: '24-2lb', weight: '2 LBS', price: WomensProteinPrice, imageFileName: 'WOMENS-PROTEIN-Pineapple-Coconut.jpg' },
+            { id: '24-2lb', weight: '2 LBS', price: WomensProteinPrice, imageFileName: 'WOMENS-PROTEIN-Pineapple-Coconut.webp' },
         ],
     },
     {
@@ -321,7 +321,7 @@ export const products: Product[] = [
         name: 'Womens Protein - Strawberry Cheesecake',
         description: WomensProteinDescription,
         variants: [
-            { id: '25-2lb', weight: '2 LBS', price: WomensProteinPrice, imageFileName: 'WOMENS-PROTEIN-Strawberry-Cheesecake.jpg' },
+            { id: '25-2lb', weight: '2 LBS', price: WomensProteinPrice, imageFileName: 'WOMENS-PROTEIN-Strawberry-Cheesecake.webp' },
         ],
     },
     {
@@ -330,7 +330,7 @@ export const products: Product[] = [
         name: 'Landerbar Protein - Fresa',
         description: LanderbarProteinDescription,
         variants: [
-            { id: '26-2lb', weight: '2 LBS', price: LanderbarProteinPrice, imageFileName: 'Barra_fresa.jpg' },
+            { id: '26-2lb', weight: '2 LBS', price: LanderbarProteinPrice, imageFileName: 'Barra_fresa.webp' },
         ],
     },
     {
@@ -339,7 +339,7 @@ export const products: Product[] = [
         name: 'Landerbar Protein - Banana',
         description: LanderbarProteinDescription,
         variants: [
-            { id: '27-2lb', weight: '2 LBS', price: LanderbarProteinPrice, imageFileName: 'barra_banana.jpg' },
+            { id: '27-2lb', weight: '2 LBS', price: LanderbarProteinPrice, imageFileName: 'barra_banana.webp' },
         ],
     },
     {
@@ -348,7 +348,7 @@ export const products: Product[] = [
         name: 'Landerbar Protein - Dulce de Leche',
         description: LanderbarProteinDescription,
         variants: [
-            { id: '28-2lb', weight: '2 LBS', price: LanderbarProteinPrice, imageFileName: 'barra_dulcedeleche.jpg' },
+            { id: '28-2lb', weight: '2 LBS', price: LanderbarProteinPrice, imageFileName: 'barra_dulcedeleche.webp' },
         ],
     },
     {
@@ -357,7 +357,7 @@ export const products: Product[] = [
         name: 'Crokwhey - Banoffee',
         description: CrokwheyDescription,
         variants: [
-            { id: '29-2lb', weight: '2 LBS', price: CrokwheyPrice, imageFileName: 'crok_banoffee_X10.jpg' },
+            { id: '29-2lb', weight: '2 LBS', price: CrokwheyPrice, imageFileName: 'crok_banoffee_X10.webp' },
         ],
     },
     {
@@ -366,7 +366,7 @@ export const products: Product[] = [
         name: 'Crokwhey - Brigadeiro',
         description: CrokwheyDescription,
         variants: [
-            { id: '30-2lb', weight: '2 LBS', price: CrokwheyPrice, imageFileName: 'crok_brigadeiro_X10.jpg' },
+            { id: '30-2lb', weight: '2 LBS', price: CrokwheyPrice, imageFileName: 'crok_brigadeiro_X10.webp' },
         ],
     },
     {
@@ -375,7 +375,7 @@ export const products: Product[] = [
         name: 'Crokwhey - Cookies and Cream',
         description: CrokwheyDescription,
         variants: [
-            { id: '31-2lb', weight: '2 LBS', price: CrokwheyPrice, imageFileName: 'crok_cookies_and_cream_X10.jpg' },
+            { id: '31-2lb', weight: '2 LBS', price: CrokwheyPrice, imageFileName: 'crok_cookies_and_cream_X10.webp' },
         ],
     },
     {
@@ -384,7 +384,7 @@ export const products: Product[] = [
         name: 'Crokwhey - Dulce de Leche',
         description: CrokwheyDescription,
         variants: [
-            { id: '32-2lb', weight: '2 LBS', price: CrokwheyPrice, imageFileName: 'crok_dulcedeleche_X10.jpg' },
+            { id: '32-2lb', weight: '2 LBS', price: CrokwheyPrice, imageFileName: 'crok_dulcedeleche_X10.webp' },
         ],
     },
     {
@@ -393,7 +393,7 @@ export const products: Product[] = [
         name: 'Crokwhey - Mani',
         description: CrokwheyDescription,
         variants: [
-            { id: '33-2lb', weight: '2 LBS', price: CrokwheyPrice, imageFileName: 'crok_mani_X10.jpg' },
+            { id: '33-2lb', weight: '2 LBS', price: CrokwheyPrice, imageFileName: 'crok_mani_X10.webp' },
         ],
     },
     {
@@ -402,7 +402,7 @@ export const products: Product[] = [
         name: 'Crokwhey - Red Berry Yogurt',
         description: CrokwheyDescription,
         variants: [
-            { id: '34-2lb', weight: '2 LBS', price: CrokwheyPrice, imageFileName: 'crok_red_berry_yogurt_X10.jpg' },
+            { id: '34-2lb', weight: '2 LBS', price: CrokwheyPrice, imageFileName: 'crok_red_berry_yogurt_X10.webp' },
         ],
     },
     {
@@ -411,7 +411,7 @@ export const products: Product[] = [
         name: 'Wheyshake - Banoffee',
         description: WheyShakeDescription,
         variants: [
-            { id: '35-2lb', weight: '2 LBS', price: WheyShakePrice900G, imageFileName: 'Banoffee2.png' },
+            { id: '35-2lb', weight: '2 LBS', price: WheyShakePrice900G, imageFileName: 'Banoffee2.webp' },
         ],
     },
     {
@@ -420,7 +420,7 @@ export const products: Product[] = [
         name: 'Wheyshake - Coconut Tropical Fruit',
         description: WheyShakeDescription,
         variants: [
-            { id: '36-2lb', weight: '2 LBS', price: WheyShakePrice900G, imageFileName: 'Coconut-tropical-fruit2.png' },
+            { id: '36-2lb', weight: '2 LBS', price: WheyShakePrice900G, imageFileName: 'Coconut-tropical-fruit2.webp' },
         ],
     },
     {
@@ -429,7 +429,7 @@ export const products: Product[] = [
         name: 'Wheyshake - Cookies and Cream',
         description: WheyShakeDescription,
         variants: [
-            { id: '37-2lb', weight: '2 LBS', price: WheyShakePrice900G, imageFileName: 'Cookies-and-cream2.png' },
+            { id: '37-2lb', weight: '2 LBS', price: WheyShakePrice900G, imageFileName: 'Cookies-and-cream2.webp' },
         ],
     },
     {
@@ -438,7 +438,7 @@ export const products: Product[] = [
         name: 'Wheyshake - Dulce de Leche',
         description: WheyShakeDescription,
         variants: [
-            { id: '38-2lb', weight: '2 LBS', price: WheyShakePrice900G, imageFileName: 'Dulce-de-leche2.png' },
+            { id: '38-2lb', weight: '2 LBS', price: WheyShakePrice900G, imageFileName: 'Dulce-de-leche2.webp' },
         ],
     },
     {
@@ -447,7 +447,7 @@ export const products: Product[] = [
         name: 'Wheyshake - Hazelnut Chocolate',
         description: WheyShakeDescription,
         variants: [
-            { id: '39-2lb', weight: '2 LBS', price: WheyShakePrice900G, imageFileName: 'Hazelnut-chocolate2.png' },
+            { id: '39-2lb', weight: '2 LBS', price: WheyShakePrice900G, imageFileName: 'Hazelnut-chocolate2.webp' },
         ],
     },
     {
@@ -456,7 +456,7 @@ export const products: Product[] = [
         name: 'Wheyshake - Red Berry Yogurt',
         description: WheyShakeDescription,
         variants: [
-            { id: '40-2lb', weight: '2 LBS', price: WheyShakePrice900G, imageFileName: 'Red-berry-yogurt2.png' },
+            { id: '40-2lb', weight: '2 LBS', price: WheyShakePrice900G, imageFileName: 'Red-berry-yogurt2.webp' },
         ],
     },
     {
@@ -465,7 +465,7 @@ export const products: Product[] = [
         name: 'Wheyshake - Strawberry Milkshake',
         description: WheyShakeDescription,
         variants: [
-            { id: '41-2lb', weight: '2 LBS', price: WheyShakePrice900G, imageFileName: 'Strawberry-milkshake2.png' },
+            { id: '41-2lb', weight: '2 LBS', price: WheyShakePrice900G, imageFileName: 'Strawberry-milkshake2.webp' },
         ],
     },
     {
@@ -474,7 +474,7 @@ export const products: Product[] = [
         name: 'Wheyshake - Vanilla Ice Cream',
         description: WheyShakeDescription,
         variants: [
-            { id: '42-2lb', weight: '2 LBS', price: WheyShakePrice900G, imageFileName: 'Vanilla-ice-cream2.png' },
+            { id: '42-2lb', weight: '2 LBS', price: WheyShakePrice900G, imageFileName: 'Vanilla-ice-cream2.webp' },
         ],
     },
     {
@@ -483,7 +483,7 @@ export const products: Product[] = [
         name: 'BCAA Revolution - Blue Raspberry',
         description: bcaaDescription,
         variants: [
-            { id: '43-2lb', weight: '2 LBS', price: bcaaPrice, imageFileName: 'BCAA-Blueraspberry.jpg' },
+            { id: '43-2lb', weight: '2 LBS', price: bcaaPrice, imageFileName: 'BCAA-Blueraspberry.webp' },
         ],
     },
     {
@@ -492,7 +492,7 @@ export const products: Product[] = [
         name: 'BCAA Revolution - Green Apple',
         description: bcaaDescription,
         variants: [
-            { id: '44-2lb', weight: '2 LBS', price: bcaaPrice, imageFileName: 'BCAA-Greenapple.jpg' },
+            { id: '44-2lb', weight: '2 LBS', price: bcaaPrice, imageFileName: 'BCAA-Greenapple.webp' },
         ],
     },
     {
@@ -501,7 +501,7 @@ export const products: Product[] = [
         name: 'BCAA Revolution - Lemon Lime',
         description: bcaaDescription,
         variants: [
-            { id: '45-2lb', weight: '2 LBS', price: bcaaPrice, imageFileName: 'BCAA-Lemon-lime.jpg' },
+            { id: '45-2lb', weight: '2 LBS', price: bcaaPrice, imageFileName: 'BCAA-Lemon-lime.webp' },
         ],
     },
     {
@@ -510,7 +510,7 @@ export const products: Product[] = [
         name: 'BCAA Revolution - Pineapple',
         description: bcaaDescription,
         variants: [
-            { id: '46-2lb', weight: '2 LBS', price: bcaaPrice, imageFileName: 'BCAA-PineApple.jpg' },
+            { id: '46-2lb', weight: '2 LBS', price: bcaaPrice, imageFileName: 'BCAA-PineApple.webp' },
         ],
     },
     {
@@ -519,7 +519,7 @@ export const products: Product[] = [
         name: 'BCAA Revolution - Watermelon',
         description: bcaaDescription,
         variants: [
-            { id: '47-2lb', weight: '2 LBS', price: bcaaPrice, imageFileName: 'BCAA-Watermelon.jpg' },
+            { id: '47-2lb', weight: '2 LBS', price: bcaaPrice, imageFileName: 'BCAA-Watermelon.webp' },
         ],
     },
     {
@@ -528,7 +528,7 @@ export const products: Product[] = [
         name: 'Creatine',
         description: creatineUSADescription,
         variants: [
-            { id: '48-2lb', weight: '2 LBS', price: creatineUSAPrice, imageFileName: 'Creatine.jpg' },
+            { id: '48-2lb', weight: '2 LBS', price: creatineUSAPrice, imageFileName: 'Creatine.webp' },
         ],
     },
     {
@@ -537,8 +537,8 @@ export const products: Product[] = [
         name: 'Creatine BR',
         description: creatineBRDescription,
         variants: [
-            { id: '49-300g', weight: '300g', price: creatineBRPrice300G, imageFileName: 'Creatine-Br.jpg' },
-            { id: '49-1kg', weight: '1kg', price: creatineBRPrice1KG, imageFileName: 'creatine_BR_1KG-1.jpg' },
+            { id: '49-300g', weight: '300g', price: creatineBRPrice300G, imageFileName: 'Creatine-Br.webp' },
+            { id: '49-1kg', weight: '1kg', price: creatineBRPrice1KG, imageFileName: 'creatine_BR_1KG-1.webp' },
         ],
     },
     {
@@ -547,7 +547,7 @@ export const products: Product[] = [
         name: 'L-Carnitine - Cola',
         description: lcreatineDescription,
         variants: [
-            { id: '51-2lb', weight: '2 LBS', price: lcreatinePrice, imageFileName: 'L-CARNITINE-Cola.jpg' },
+            { id: '51-2lb', weight: '2 LBS', price: lcreatinePrice, imageFileName: 'L-CARNITINE-Cola.webp' },
         ],
     },
     {
@@ -556,7 +556,7 @@ export const products: Product[] = [
         name: 'L-Carnitine - Grape',
         description: lcreatineDescription,
         variants: [
-            { id: '52-2lb', weight: '2 LBS', price: lcreatinePrice, imageFileName: 'L-CARNITINE-Grape.jpg' },
+            { id: '52-2lb', weight: '2 LBS', price: lcreatinePrice, imageFileName: 'L-CARNITINE-Grape.webp' },
         ],
     },
     {
@@ -565,7 +565,7 @@ export const products: Product[] = [
         name: 'L-Carnitine - Orange',
         description: lcreatineDescription,
         variants: [
-            { id: '53-2lb', weight: '2 LBS', price: lcreatinePrice, imageFileName: 'L-CARNITINE-Orange.jpg' },
+            { id: '53-2lb', weight: '2 LBS', price: lcreatinePrice, imageFileName: 'L-CARNITINE-Orange.webp' },
         ],
     },
     {
@@ -574,7 +574,7 @@ export const products: Product[] = [
         name: 'Amino Revolution - Fruit Punch',
         description: aminoRevolutionDescription,
         variants: [
-            { id: '54-2lb', weight: '2 LBS', price: aminoRevolutionPrice, imageFileName: 'Amino-Fruitpunch.jpg' },
+            { id: '54-2lb', weight: '2 LBS', price: aminoRevolutionPrice, imageFileName: 'Amino-Fruitpunch.webp' },
         ],
     },
     {
@@ -583,7 +583,7 @@ export const products: Product[] = [
         name: 'Amino Revolution - Grape',
         description: aminoRevolutionDescription,
         variants: [
-            { id: '55-2lb', weight: '2 LBS', price: aminoRevolutionPrice, imageFileName: 'Amino-Grape.jpg' },
+            { id: '55-2lb', weight: '2 LBS', price: aminoRevolutionPrice, imageFileName: 'Amino-Grape.webp' },
         ],
     },
     {
@@ -592,7 +592,7 @@ export const products: Product[] = [
         name: 'Amino Revolution - Green Apple',
         description: aminoRevolutionDescription,
         variants: [
-            { id: '56-2lb', weight: '2 LBS', price: aminoRevolutionPrice, imageFileName: 'Amino-GreenApple.jpg' },
+            { id: '56-2lb', weight: '2 LBS', price: aminoRevolutionPrice, imageFileName: 'Amino-GreenApple.webp' },
         ],
     },
     {
@@ -601,7 +601,7 @@ export const products: Product[] = [
         name: 'Amino Revolution - Raspberry Lemonade',
         description: aminoRevolutionDescription,
         variants: [
-            { id: '57-2lb', weight: '2 LBS', price: aminoRevolutionPrice, imageFileName: 'Amino-Raspberry-limonade.jpg' },
+            { id: '57-2lb', weight: '2 LBS', price: aminoRevolutionPrice, imageFileName: 'Amino-Raspberry-limonade.webp' },
         ],
     },
     {
@@ -610,7 +610,7 @@ export const products: Product[] = [
         name: 'Amino Revolution - Coconut',
         description: aminoRevolutionDescription,
         variants: [
-            { id: '58-2lb', weight: '2 LBS', price: aminoRevolutionPrice, imageFileName: 'Coco-1000x1000-1.jpg' },
+            { id: '58-2lb', weight: '2 LBS', price: aminoRevolutionPrice, imageFileName: 'Coco-1000x1000-1.webp' },
         ],
     },
     {
@@ -619,7 +619,7 @@ export const products: Product[] = [
         name: 'Amino Revolution - Tangerine',
         description: aminoRevolutionDescription,
         variants: [
-            { id: '59-2lb', weight: '2 LBS', price: aminoRevolutionPrice, imageFileName: 'Mandarina-1000x1000-1.jpg' },
+            { id: '59-2lb', weight: '2 LBS', price: aminoRevolutionPrice, imageFileName: 'Mandarina-1000x1000-1.webp' },
         ],
     },
 
@@ -629,7 +629,7 @@ export const products: Product[] = [
         name: 'GLUCOSAMINE Y CHONDROITIN CON MSM',
         description: glucosamineDescription,
         variants: [
-            { id: '62-2lb', weight: '2 LBS', price: glucosaminePrice, imageFileName: 'GLUCOSAMINE.jpg' },
+            { id: '62-2lb', weight: '2 LBS', price: glucosaminePrice, imageFileName: 'GLUCOSAMINE.webp' },
         ],
     },
     {
@@ -638,7 +638,7 @@ export const products: Product[] = [
         name: 'Muscle Pump - Fruit Punch',
         description: musclePumpDescription,
         variants: [
-            { id: '63-2lb', weight: '2 LBS', price: musclePumpPrice, imageFileName: 'MUSCLE-PUMP-Fruit-Punch.jpg' },
+            { id: '63-2lb', weight: '2 LBS', price: musclePumpPrice, imageFileName: 'MUSCLE-PUMP-Fruit-Punch.webp' },
         ],
     },
     {
@@ -647,7 +647,7 @@ export const products: Product[] = [
         name: 'Muscle Pump - Key Lime Ice',
         description: musclePumpDescription,
         variants: [
-            { id: '64-2lb', weight: '2 LBS', price: musclePumpPrice, imageFileName: 'MUSCLE-PUMP-Key-lime-ice-800x800.jpg' },
+            { id: '64-2lb', weight: '2 LBS', price: musclePumpPrice, imageFileName: 'MUSCLE-PUMP-Key-lime-ice-800x800.webp' },
         ],
     },
     {
@@ -656,7 +656,7 @@ export const products: Product[] = [
         name: 'Testolander Booster',
         description: testolanderBoosterDescription,
         variants: [
-            { id: '65-2lb', weight: '2 LBS', price: testolanderBoosterPrice, imageFileName: 'TESTOLANDER-BOOSTER.jpg' },
+            { id: '65-2lb', weight: '2 LBS', price: testolanderBoosterPrice, imageFileName: 'TESTOLANDER-BOOSTER.webp' },
         ],
     },
     {
@@ -665,7 +665,7 @@ export const products: Product[] = [
         name: 'Tribulus Terrestris',
         description: tribulusTerrestrisDescription,
         variants: [
-            { id: '66-2lb', weight: '2 LBS', price: tribulusTerrestrisPrice, imageFileName: 'TRIBULUS-TERRESTRIS.jpg' },
+            { id: '66-2lb', weight: '2 LBS', price: tribulusTerrestrisPrice, imageFileName: 'TRIBULUS-TERRESTRIS.webp' },
         ],
     },
     {
@@ -674,7 +674,7 @@ export const products: Product[] = [
         name: 'Ultra Glutamine',
         description: ultraGlutamineDescription,
         variants: [
-            { id: '67-2lb', weight: '2 LBS', price: ultraGlutaminePrice, imageFileName: 'ULTRA-GLUTAMINA.jpg' },
+            { id: '67-2lb', weight: '2 LBS', price: ultraGlutaminePrice, imageFileName: 'ULTRA-GLUTAMINA.webp' },
         ],
     },
     {
@@ -683,7 +683,7 @@ export const products: Product[] = [
         name: 'UC II',
         description: uc2Description,
         variants: [
-            { id: '68-30caps', weight: '30 caps', price: priceUC2, imageFileName: 'UC2-1000x100px-1.jpg' },
+            { id: '68-30caps', weight: '30 caps', price: priceUC2, imageFileName: 'UC2-1000x100px-1.webp' },
         ],
     },
     {
@@ -692,7 +692,7 @@ export const products: Product[] = [
         name: 'Citrato de Magnesio',
         description: citratoMagnesioDescription,
         variants: [
-            { id: '69-caps', weight: '60 caps', price: priceCitratoMagnesio, imageFileName: 'citrato-de-magnesio.jpeg' },
+            { id: '69-caps', weight: '60 caps', price: priceCitratoMagnesio, imageFileName: 'citrato-de-magnesio.webp' },
         ],
     },
     {
@@ -701,7 +701,7 @@ export const products: Product[] = [
         name: 'Fiber',
         description: fiberDescription,
         variants: [
-            { id: '70-caps', weight: '60 caps', price: priceFiber, imageFileName: 'FIBER.jpg' },
+            { id: '70-caps', weight: '60 caps', price: priceFiber, imageFileName: 'FIBER.webp' },
         ],
     },
     {
@@ -710,7 +710,7 @@ export const products: Product[] = [
         name: 'Hair, Skin and Nails',
         description: hairSkinNailsDescription,
         variants: [
-            { id: '71-caps', weight: '60 caps', price: priceHairSkinNails, imageFileName: 'HAIR-SKIN-AND-NAILS.jpg' },
+            { id: '71-caps', weight: '60 caps', price: priceHairSkinNails, imageFileName: 'HAIR-SKIN-AND-NAILS.webp' },
         ],
     },
     {
@@ -719,7 +719,7 @@ export const products: Product[] = [
         name: 'Hydrolyzed Collagen - 180 Caps',
         description: hydrolizedCollagenDescription,
         variants: [
-            { id: '72-180caps', weight: '180 caps', price: priceHydrolizedCollagen180, imageFileName: 'Hydrolized-Collegen-180-Capsulas.jpg' },
+            { id: '72-180caps', weight: '180 caps', price: priceHydrolizedCollagen180, imageFileName: 'Hydrolized-Collegen-180-Capsulas.webp' },
         ],
     },
     {
@@ -728,7 +728,7 @@ export const products: Product[] = [
         name: 'Hydrolyzed Collagen - Orange',
         description: hydrolizedCollagenDescription,
         variants: [
-            { id: '84-orange', weight: '405g', price: priceHydrolizedCollagen405, imageFileName: 'Hydrolized-Orange.jpg' },
+            { id: '84-orange', weight: '405g', price: priceHydrolizedCollagen405, imageFileName: 'Hydrolized-Orange.webp' },
         ],
     },
     {
@@ -737,7 +737,7 @@ export const products: Product[] = [
         name: 'Hydrolyzed Collagen - Lemon Lime',
         description: hydrolizedCollagenDescription,
         variants: [
-            { id: '85-lemon', weight: '405g', price: priceHydrolizedCollagen405, imageFileName: 'Hydrolized-Collegen-Lemon-Lime.jpg' },
+            { id: '85-lemon', weight: '405g', price: priceHydrolizedCollagen405, imageFileName: 'Hydrolized-Collegen-Lemon-Lime.webp' },
         ],
     },
     {
@@ -746,7 +746,7 @@ export const products: Product[] = [
         name: 'Lander Diuretic',
         description: landerDiureticDescription,
         variants: [
-            { id: '73-caps', weight: '60 caps', price: priceLanderDiuretic, imageFileName: 'LANDER-DIURETIC.jpg' },
+            { id: '73-caps', weight: '60 caps', price: priceLanderDiuretic, imageFileName: 'LANDER-DIURETIC.webp' },
         ],
     },
     {
@@ -755,7 +755,7 @@ export const products: Product[] = [
         name: 'Milk Thistle 500mg',
         description: milkThistleDescription,
         variants: [
-            { id: '74-caps', weight: '60 caps', price: priceMilkThistle, imageFileName: 'milk.jpg' },
+            { id: '74-caps', weight: '60 caps', price: priceMilkThistle, imageFileName: 'milk.webp' },
         ],
     },
     {
@@ -764,7 +764,7 @@ export const products: Product[] = [
         name: 'Multi Hydrolyzed Collagen Plus - Cappuccino',
         description: multiCollagenDescription,
         variants: [
-            { id: '75-cap', weight: '1kg', price: priceMultiCollagenPlus, imageFileName: 'multi_collgen-1.jpg' },
+            { id: '75-cap', weight: '1kg', price: priceMultiCollagenPlus, imageFileName: 'multi_collgen-1.webp' },
         ],
     },
     {
@@ -773,7 +773,7 @@ export const products: Product[] = [
         name: 'Multi Hydrolyzed Collagen Plus - Hazelnut Cream',
         description: multiCollagenDescription,
         variants: [
-            { id: '82-hazel', weight: '1kg', price: priceMultiCollagenPlus, imageFileName: 'multi_collgen_hazelnut.jpg' },
+            { id: '82-hazel', weight: '1kg', price: priceMultiCollagenPlus, imageFileName: 'multi_collgen_hazelnut.webp' },
         ],
     },
     {
@@ -782,7 +782,7 @@ export const products: Product[] = [
         name: 'Multi Hydrolyzed Collagen Plus - Unflavored',
         description: multiCollagenDescription,
         variants: [
-            { id: '83-unf', weight: 'Unflavored', price: priceMultiCollagenPlus, imageFileName: 'multi_collgen_unflavored.jpg' },
+            { id: '83-unf', weight: 'Unflavored', price: priceMultiCollagenPlus, imageFileName: 'multi_collgen_unflavored.webp' },
         ],
     },
     {
@@ -791,7 +791,7 @@ export const products: Product[] = [
         name: 'Multiphase Landerfit',
         description: multiphaseDescription,
         variants: [
-            { id: '76-caps', weight: '90 caps', price: priceMultiphaseLanderfit, imageFileName: 'MULTIPHASE.jpg' },
+            { id: '76-caps', weight: '90 caps', price: priceMultiphaseLanderfit, imageFileName: 'MULTIPHASE.webp' },
         ],
     },
     {
@@ -800,7 +800,7 @@ export const products: Product[] = [
         name: 'Omega 3',
         description: omega3Description,
         variants: [
-            { id: '77-caps', weight: '120 caps', price: priceOmega3Landerfit, imageFileName: 'omega-nuevo.jpeg' },
+            { id: '77-caps', weight: '120 caps', price: priceOmega3Landerfit, imageFileName: 'omega-nuevo.webp' },
         ],
     },
     {
@@ -809,7 +809,7 @@ export const products: Product[] = [
         name: 'Probiotic Dual Liquid',
         description: probioticDescription,
         variants: [
-            { id: '78-liquid', weight: 'Liquid', price: priceProbioticDualLiquid, imageFileName: 'Probiotic-web-1000x1000-1.jpg' },
+            { id: '78-liquid', weight: 'Liquid', price: priceProbioticDualLiquid, imageFileName: 'Probiotic-web-1000x1000-1.webp' },
         ],
     },
     {
@@ -818,7 +818,7 @@ export const products: Product[] = [
         name: 'Saw Palmetto',
         description: sawPalmettoDescription,
         variants: [
-            { id: '79-caps', weight: '60 caps', price: priceSawPalmetto, imageFileName: 'saw.jpg' },
+            { id: '79-caps', weight: '60 caps', price: priceSawPalmetto, imageFileName: 'saw.webp' },
         ],
     },
     {
@@ -827,7 +827,7 @@ export const products: Product[] = [
         name: 'Vitamin D3',
         description: vitamind3Description,
         variants: [
-            { id: '80-d3', weight: '60 caps', price: priceVitaminaD3, imageFileName: 'D3-1000x100px-1.jpg' },
+            { id: '80-d3', weight: '60 caps', price: priceVitaminaD3, imageFileName: 'D3-1000x100px-1.webp' },
         ],
     },
     {
@@ -836,7 +836,7 @@ export const products: Product[] = [
         name: 'Vitamin C',
         description: vitamincDescription,
         variants: [
-            { id: '81-vitc', weight: '60 caps', price: priceVitaminaC, imageFileName: 'VITAMINA-C.jpg' },
+            { id: '81-vitc', weight: '60 caps', price: priceVitaminaC, imageFileName: 'VITAMINA-C.webp' },
         ],
     }
 ];
