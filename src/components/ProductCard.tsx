@@ -28,7 +28,7 @@ export default function ProductCard({ product }: { product: Product }) {
             {/* Content Container */}
             <div className="flex flex-col flex-grow">
                 {/* Product Title */}
-                <h3 className="text-xl sm:text-2xl font-bold text-white mb-3 leading-snug group-hover:text-amber-500 transition-colors duration-300">
+                <h3 className="text-xl sm:text-2xl font-bold text-white mb-3 leading-snug group-hover:text-[#FFCC00] transition-colors duration-300">
                     {product.name}
                 </h3>
 
@@ -45,7 +45,7 @@ export default function ProductCard({ product }: { product: Product }) {
                                 key={variant.id}
                                 onClick={() => setSelectedVariantId(variant.id)}
                                 className={`flex-1 flex items-center justify-center gap-1.5 py-2.5 text-xs font-black uppercase tracking-widest rounded-xl transition-all duration-300 border-2 ${selectedVariantId === variant.id
-                                    ? 'bg-amber-500 text-black border-amber-500 shadow-lg shadow-amber-500/20'
+                                    ? 'bg-[#FFCC00] text-black border-[#FFCC00] shadow-lg shadow-[#FFCC00]/20'
                                     : 'bg-transparent text-zinc-400 border-zinc-700 hover:border-zinc-500 hover:text-white'
                                     }`}
                             >
@@ -60,7 +60,7 @@ export default function ProductCard({ product }: { product: Product }) {
                 <div className="pt-4 border-t border-zinc-800/50 flex items-end justify-between mt-auto">
                     <div className="flex flex-col">
                         <span className="text-xs text-zinc-500 uppercase font-semibold tracking-wider mb-1">Precio</span>
-                        <span className="text-2xl sm:text-3xl font-black text-amber-500 tracking-tight transition-all duration-300">
+                        <span className="text-2xl sm:text-3xl font-black text-[#FFCC00] tracking-tight transition-all duration-300">
                             {selectedVariant.price}
                         </span>
                     </div>

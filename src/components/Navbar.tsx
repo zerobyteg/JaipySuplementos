@@ -8,15 +8,13 @@ const Navbar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
     const navLinks = [
-        { name: 'Inicio', href: '/inicio' },
         { name: 'Productos', href: '/productos' },
         { name: 'Nosotros', href: '/nosotros' },
-        { name: 'Blog', href: '/blog' },
         { name: 'Contacto', href: '/contacto' },
     ];
 
     return (
-        <nav className="sticky top-0 z-50 w-full bg-black text-white font-sans border-b border-white/10">
+        <nav className="sticky top-0 z-50 w-full bg-black/50 backdrop-blur-lg text-white font-sans border-b border-white/10">
             <div className="container mx-auto px-4 lg:px-8">
                 <div className="flex h-20 items-center justify-between">
                     {/* Logo */}
@@ -42,13 +40,15 @@ const Navbar = () => {
                         </div>
                     </div>
 
-                    {/* Mobile Menu Toggle */}
-                    <button
-                        className="lg:hidden p-2 hover:text-[#FFCC00] transition-colors"
-                        onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                    >
-                        {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
-                    </button>
+                    {/* Mobile Menu Toggle & Icons */}
+                    <div className="flex items-center gap-4 lg:hidden">
+                        <button
+                            className="p-2 hover:text-[#FFCC00] transition-colors"
+                            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                        >
+                            {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
+                        </button>
+                    </div>
                 </div>
             </div>
 
