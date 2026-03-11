@@ -57,44 +57,48 @@ const TrendingProducts = () => {
                         <motion.div
                             key={product.id}
                             variants={itemVariants}
-                            className="group flex flex-col bg-zinc-900/50 hover:bg-zinc-900 border border-zinc-800/50 hover:border-zinc-700/80 rounded-3xl p-5 transition-all duration-300 hover:shadow-2xl hover:shadow-black"
                         >
-                            {/* Product Image Area */}
-                            <div className="relative w-full aspect-square rounded-2xl overflow-hidden mb-6 bg-white border border-zinc-800/30">
-                                <Image
-                                    src={(product.folder.includes('/') || product.folder === 'wellness' || product.folder === 'quemadores')
-                                        ? `/products/${product.folder}/${product.variants[0].imageFileName}`
-                                        : `/products/proteins/${product.folder}/${product.variants[0].imageFileName}`}
-                                    alt={product.name}
-                                    fill
-                                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                                    className="object-cover transition-transform duration-500 group-hover:scale-110"
-                                />
-                            </div>
+                            <Link
+                                href="/productos"
+                                className="group flex flex-col h-full bg-zinc-900/50 hover:bg-zinc-900 border border-zinc-800/50 hover:border-zinc-700/80 rounded-3xl p-5 transition-all duration-300 hover:shadow-2xl hover:shadow-black cursor-pointer"
+                            >
+                                {/* Product Image Area */}
+                                <div className="relative w-full aspect-square rounded-2xl overflow-hidden mb-6 bg-white border border-zinc-800/30">
+                                    <Image
+                                        src={(product.folder.includes('/') || product.folder === 'wellness' || product.folder === 'quemadores')
+                                            ? `/products/${product.folder}/${product.variants[0].imageFileName}`
+                                            : `/products/proteins/${product.folder}/${product.variants[0].imageFileName}`}
+                                        alt={product.name}
+                                        fill
+                                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                                        className="object-cover transition-transform duration-500 group-hover:scale-110"
+                                    />
+                                </div>
 
-                            {/* Content Container */}
-                            <div className="flex flex-col flex-grow">
-                                <h3 className="text-xl sm:text-2xl font-bold text-white mb-3 leading-snug group-hover:text-[#FFCC00] transition-colors duration-300 uppercase">
-                                    {product.name}
-                                </h3>
+                                {/* Content Container */}
+                                <div className="flex flex-col flex-grow">
+                                    <h3 className="text-xl sm:text-2xl font-bold text-white mb-3 leading-snug group-hover:text-[#FFCC00] transition-colors duration-300 uppercase">
+                                        {product.name}
+                                    </h3>
 
-                                <p className="text-sm text-zinc-400 line-clamp-2 leading-relaxed mb-6 group-hover:line-clamp-none transition-all duration-300">
-                                    {product.description}
-                                </p>
+                                    <p className="text-sm text-zinc-400 line-clamp-2 leading-relaxed mb-6 group-hover:line-clamp-none transition-all duration-300">
+                                        {product.description}
+                                    </p>
 
-                                {/* Spacer to keep price at bottom */}
-                                <div className="mt-auto mb-6"></div>
+                                    {/* Spacer to keep price at bottom */}
+                                    <div className="mt-auto mb-6"></div>
 
-                                {/* Price */}
-                                <div className="pt-4 border-t border-zinc-800/50 flex items-end justify-between mt-auto">
-                                    <div className="flex flex-col">
-                                        <span className="text-xs text-zinc-500 uppercase font-semibold tracking-wider mb-1">Precio</span>
-                                        <span className="text-2xl sm:text-3xl font-black text-[#FFCC00] tracking-tight transition-all duration-300">
-                                            {product.variants[0].price}
-                                        </span>
+                                    {/* Price */}
+                                    <div className="pt-4 border-t border-zinc-800/50 flex items-end justify-between mt-auto">
+                                        <div className="flex flex-col">
+                                            <span className="text-xs text-zinc-500 uppercase font-semibold tracking-wider mb-1">Precio</span>
+                                            <span className="text-2xl sm:text-3xl font-black text-[#FFCC00] tracking-tight transition-all duration-300">
+                                                {product.variants[0].price}
+                                            </span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </Link>
                         </motion.div>
                     ))}
                 </motion.div>

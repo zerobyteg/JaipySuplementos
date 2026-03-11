@@ -47,6 +47,14 @@ const Hero = () => {
                         <p className="text-zinc-400 text-lg md:text-xl font-medium max-w-lg mb-10 leading-relaxed">
                             Alcanza tus metas con la suplementación de más alta tecnología. Diseñado para atletas que no conocen límites.
                         </p>
+
+                        <Link
+                            href="/productos"
+                            className="group relative inline-flex items-center gap-3 bg-[#FFCC00] text-black px-8 py-4 rounded-full font-black uppercase tracking-tighter text-lg hover:bg-white transition-all duration-300 hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(255,204,0,0.3)] hover:shadow-[0_0_30px_rgba(255,255,255,0.4)]"
+                        >
+                            Ver Catálogo
+                            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                        </Link>
                     </motion.div>
 
                     {/* Right Product Image */}
