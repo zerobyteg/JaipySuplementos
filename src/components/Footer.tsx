@@ -5,8 +5,6 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import {
-    Instagram,
-    Facebook,
     Mail,
     Phone,
     MapPin,
@@ -36,24 +34,7 @@ const Footer = () => {
                         <p className="text-zinc-400 text-sm leading-relaxed max-w-xs">
                             Tu destino premium para la suplementación deportiva de alto rendimiento. Calidad garantizada para potenciar tus metas.
                         </p>
-                        <div className="flex items-center space-x-4">
-                            <motion.a
-                                whileHover={{ scale: 1.1, color: '#FFCC00' }}
-                                href="https://instagram.com"
-                                target="_blank"
-                                className="text-zinc-500 transition-colors"
-                            >
-                                <Instagram size={20} />
-                            </motion.a>
-                            <motion.a
-                                whileHover={{ scale: 1.1, color: '#FFCC00' }}
-                                href="https://facebook.com"
-                                target="_blank"
-                                className="text-zinc-500 transition-colors"
-                            >
-                                <Facebook size={20} />
-                            </motion.a>
-                        </div>
+
                     </div>
 
                     {/* Quick Links */}
@@ -84,11 +65,11 @@ const Footer = () => {
                         <ul className="space-y-4">
                             <li className="flex items-start space-x-3 text-sm group">
                                 <Mail size={18} className="text-[#FFCC00] mt-0.5 shrink-0" />
-                                <span className="text-zinc-500 group-hover:text-zinc-300 transition-colors">info@jaipysuplementos.com</span>
+                                <span className="text-zinc-500 group-hover:text-zinc-300 transition-colors">jairokov@gmail.com</span>
                             </li>
                             <li className="flex items-start space-x-3 text-sm group">
                                 <Phone size={18} className="text-[#FFCC00] mt-0.5 shrink-0" />
-                                <span className="text-zinc-500 group-hover:text-zinc-300 transition-colors">+595 9XX XXX XXX</span>
+                                <span className="text-zinc-500 group-hover:text-zinc-300 transition-colors">+595 991 712966</span>
                             </li>
                             <li className="flex items-start space-x-3 text-sm group">
                                 <MapPin size={18} className="text-[#FFCC00] mt-0.5 shrink-0" />

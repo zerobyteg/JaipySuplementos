@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import ProductGrid from './ProductGrid';
 import { products } from '@/data/products';
 import { groupProducts } from '@/utils/productUtils';
+import DiscountPopup from './DiscountPopup';
 
 const groupedProducts = groupProducts(products);
 
@@ -66,6 +67,8 @@ export default function Catalog() {
                     </button>
                 </div>
             )}
+
+            <DiscountPopup />
         </div>
     );
 }
