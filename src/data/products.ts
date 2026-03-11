@@ -679,7 +679,7 @@ export const products: Product[] = [
     },
     {
         id: '68',
-        folder: 'wellness/UC II 30 capsulas',
+        folder: 'wellness/uc-ii',
         name: 'UC II',
         description: uc2Description,
         variants: [
@@ -688,7 +688,7 @@ export const products: Product[] = [
     },
     {
         id: '69',
-        folder: 'wellness/citrato de magnesio',
+        folder: 'wellness/citrato-magnesio',
         name: 'Citrato de Magnesio',
         description: citratoMagnesioDescription,
         variants: [
@@ -706,7 +706,7 @@ export const products: Product[] = [
     },
     {
         id: '71',
-        folder: 'wellness/hair,skin and nails',
+        folder: 'wellness/hair-skin-nails',
         name: 'Hair, Skin and Nails',
         description: hairSkinNailsDescription,
         variants: [
@@ -715,7 +715,7 @@ export const products: Product[] = [
     },
     {
         id: '72',
-        folder: 'wellness/hydrolized collegen',
+        folder: 'wellness/hydrolyzed-collagen',
         name: 'Hydrolyzed Collagen - 180 Caps',
         description: hydrolizedCollagenDescription,
         variants: [
@@ -724,7 +724,7 @@ export const products: Product[] = [
     },
     {
         id: '84',
-        folder: 'wellness/hydrolized collegen',
+        folder: 'wellness/hydrolyzed-collagen',
         name: 'Hydrolyzed Collagen - Orange',
         description: hydrolizedCollagenDescription,
         variants: [
@@ -733,7 +733,7 @@ export const products: Product[] = [
     },
     {
         id: '85',
-        folder: 'wellness/hydrolized collegen',
+        folder: 'wellness/hydrolyzed-collagen',
         name: 'Hydrolyzed Collagen - Lemon Lime',
         description: hydrolizedCollagenDescription,
         variants: [
@@ -742,7 +742,7 @@ export const products: Product[] = [
     },
     {
         id: '73',
-        folder: 'wellness/lander diuretic',
+        folder: 'wellness/lander-diuretic',
         name: 'Lander Diuretic',
         description: landerDiureticDescription,
         variants: [
