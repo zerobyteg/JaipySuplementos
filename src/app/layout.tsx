@@ -11,7 +11,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Jaipy Suplementos",
-  description: "High-end e-commerce for supplements",
+  description: "Tu destino premium para la suplementación deportiva de alto rendimiento.",
 };
 
 export default function RootLayout({
@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
+    <html lang="es" className="dark">
       <body
         className={`${inter.variable} antialiased bg-black text-white min-h-screen flex flex-col`}
       >
