@@ -12,11 +12,14 @@ const DiscountPopup = () => {
     useEffect(() => {
         setIsMounted(true);
 
-        const hasSeenPopup = localStorage.getItem('jaipy_discount_popup_closed');
+        const nextAvailableTimeStr = localStorage.getItem('jaipy_discount_popup_next_available');
         const storedEndTime = localStorage.getItem('jaipy_discount_popup_end_time');
 
-        if (hasSeenPopup === 'true') {
-            return;
+        if (nextAvailableTimeStr) {
+            const nextAvailable = parseInt(nextAvailableTimeStr, 10);
+            if (new Date().getTime() < nextAvailable) {
+                return;
+            }
         }
 
         let endTime = storedEndTime ? parseInt(storedEndTime, 10) : null;
@@ -27,24 +30,32 @@ const DiscountPopup = () => {
             
             if (remaining > 0) {
                 setTimeLeft(remaining);
-                // If there's an active timer, show immediately (or you could still wait 7s. Let's show immediately if active)
+                // If there's an active timer, show immediately
                 setIsVisible(true);
             } else {
-                // Timer expired
-                localStorage.setItem('jaipy_discount_popup_closed', 'true');
-                return;
+                // Timer expired while away. Consume a daily offer and reset.
+                consumeDailyOffer();
             }
         } else {
-            // First time logic
+            // First time logic OR starting a new daily offer
             const timer = setTimeout(() => {
                 const newEndTime = new Date().getTime() + 600 * 1000;
                 localStorage.setItem('jaipy_discount_popup_end_time', newEndTime.toString());
+                setTimeLeft(600);
                 setIsVisible(true);
             }, 7000);
 
             return () => clearTimeout(timer);
         }
     }, []);
+
+    const consumeDailyOffer = () => {
+        // Set the next available time to 48 hours from now
+        const nextAvailable = new Date().getTime() + (48 * 60 * 60 * 1000);
+        localStorage.setItem('jaipy_discount_popup_next_available', nextAvailable.toString());
+        localStorage.removeItem('jaipy_discount_popup_end_time'); // Clear the old timer
+        setIsVisible(false);
+    };
 
     useEffect(() => {
         if (!isVisible || timeLeft <= 0) return;
@@ -53,8 +64,7 @@ const DiscountPopup = () => {
             setTimeLeft((prev) => {
                 if (prev <= 1) {
                     clearInterval(intervalId);
-                    localStorage.setItem('jaipy_discount_popup_closed', 'true');
-                    setIsVisible(false);
+                    consumeDailyOffer();
                     return 0;
                 }
                 return prev - 1;
@@ -65,8 +75,7 @@ const DiscountPopup = () => {
     }, [isVisible, timeLeft]);
 
     const handleClose = () => {
-        setIsVisible(false);
-        localStorage.setItem('jaipy_discount_popup_closed', 'true');
+        consumeDailyOffer();
     };
 
     const formatTime = (seconds: number) => {

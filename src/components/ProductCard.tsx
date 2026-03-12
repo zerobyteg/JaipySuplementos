@@ -6,6 +6,7 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 
 import { GroupedProduct, GroupedProductVariant } from '@/utils/productUtils';
+import { useDiscount } from '@/hooks/useDiscount';
 
 const FLAVOR_COLORS: Record<string, string> = {
     'Acai': '#5C2D5C',
@@ -100,6 +101,7 @@ const FLAVOR_EMOJIS: Record<string, string> = {
 
 export default function ProductCard({ product }: { product: GroupedProduct }) {
     const [isHovered, setIsHovered] = useState(false);
+    const { isDiscountActive, calculateDiscountedPrice } = useDiscount();
 
     // Unique flavors and weights
     const flavors = Array.from(new Set(product.variants.map(v => v.flavor)));
@@ -262,9 +264,23 @@ export default function ProductCard({ product }: { product: GroupedProduct }) {
                 <div className="pt-4 border-t border-zinc-800/50 flex items-end justify-between mt-auto">
                     <div className="flex flex-col">
                         <span className="text-xs text-zinc-500 uppercase font-semibold tracking-wider mb-1">Precio</span>
-                        <span className="text-2xl sm:text-3xl font-black text-[#FFCC00] tracking-tight transition-all duration-300">
-                            {activeVariant.price}
-                        </span>
+                        {isDiscountActive ? (
+                            <div className="flex flex-col items-start gap-0.5">
+                                <span className="text-sm font-semibold text-zinc-500 line-through tracking-tight">
+                                    {activeVariant.price}
+                                </span>
+                                <span className="text-2xl sm:text-3xl font-black text-[#FFCC00] tracking-tight transition-all duration-300 flex items-center gap-2">
+                                    {calculateDiscountedPrice(activeVariant.price)}
+                                    <span className="text-sm bg-green-500/20 text-green-500 px-2 py-1 rounded-md font-black uppercase tracking-wider" title="Solo para nuevos usuarios">
+                                        -10%
+                                    </span>
+                                </span>
+                            </div>
+                        ) : (
+                            <span className="text-2xl sm:text-3xl font-black text-[#FFCC00] tracking-tight transition-all duration-300">
+                                {activeVariant.price}
+                            </span>
+                        )}
                     </div>
 
                     <motion.a

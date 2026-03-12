@@ -8,6 +8,7 @@ import Image from 'next/image';
 
 import { products } from '@/data/products';
 import { groupProducts } from '@/utils/productUtils';
+import { useDiscount } from '@/hooks/useDiscount';
 
 const groupedProducts = groupProducts(products);
 
@@ -33,6 +34,7 @@ const itemVariants: Variants = {
 };
 
 const TrendingProducts = () => {
+    const { isDiscountActive, calculateDiscountedPrice } = useDiscount();
     return (
         <section className="bg-black py-20 lg:py-32 relative">
             <div className="container mx-auto px-4 lg:px-8">
@@ -92,9 +94,23 @@ const TrendingProducts = () => {
                                     <div className="pt-4 border-t border-zinc-800/50 flex items-end justify-between mt-auto">
                                         <div className="flex flex-col">
                                             <span className="text-xs text-zinc-500 uppercase font-semibold tracking-wider mb-1">Precio</span>
-                                            <span className="text-2xl sm:text-3xl font-black text-[#FFCC00] tracking-tight transition-all duration-300">
-                                                {product.variants[0].price}
-                                            </span>
+                                            {isDiscountActive ? (
+                                                <div className="flex flex-col items-start gap-0.5">
+                                                    <span className="text-sm font-semibold text-zinc-500 line-through tracking-tight">
+                                                        {product.variants[0].price}
+                                                    </span>
+                                                    <span className="text-2xl sm:text-3xl font-black text-[#FFCC00] tracking-tight transition-all duration-300 flex items-center gap-2">
+                                                        {calculateDiscountedPrice(product.variants[0].price)}
+                                                        <span className="text-sm bg-green-500/20 text-green-500 px-2 py-1 rounded-md font-black uppercase tracking-wider" title="Solo para nuevos usuarios">
+                                                            -10%
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                            ) : (
+                                                <span className="text-2xl sm:text-3xl font-black text-[#FFCC00] tracking-tight transition-all duration-300">
+                                                    {product.variants[0].price}
+                                                </span>
+                                            )}
                                         </div>
                                     </div>
                                 </div>
