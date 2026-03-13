@@ -2,91 +2,29 @@
 
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, Tag, Clock } from 'lucide-react';
+import { X, Tag } from 'lucide-react';
 
 const DiscountPopup = () => {
     const [isVisible, setIsVisible] = useState(false);
-    const [timeLeft, setTimeLeft] = useState(600); // 10 minutes in seconds
     const [isMounted, setIsMounted] = useState(false);
 
     useEffect(() => {
         setIsMounted(true);
 
-        const nextAvailableTimeStr = localStorage.getItem('jaipy_discount_popup_next_available');
-        const storedEndTime = localStorage.getItem('jaipy_discount_popup_end_time');
+        const timer = setTimeout(() => {
+            setIsVisible(true);
+        }, 7000);
 
-        if (nextAvailableTimeStr) {
-            const nextAvailable = parseInt(nextAvailableTimeStr, 10);
-            if (new Date().getTime() < nextAvailable) {
-                return;
-            }
-        }
-
-        let endTime = storedEndTime ? parseInt(storedEndTime, 10) : null;
-
-        if (endTime) {
-            const now = new Date().getTime();
-            const remaining = Math.max(0, Math.floor((endTime - now) / 1000));
-            
-            if (remaining > 0) {
-                setTimeLeft(remaining);
-                // If there's an active timer, show immediately
-                setIsVisible(true);
-            } else {
-                // Timer expired while away. Consume a daily offer and reset.
-                consumeDailyOffer();
-            }
-        } else {
-            // First time logic OR starting a new daily offer
-            const timer = setTimeout(() => {
-                const newEndTime = new Date().getTime() + 600 * 1000;
-                localStorage.setItem('jaipy_discount_popup_end_time', newEndTime.toString());
-                setTimeLeft(600);
-                setIsVisible(true);
-            }, 7000);
-
-            return () => clearTimeout(timer);
-        }
+        return () => clearTimeout(timer);
     }, []);
 
-    const consumeDailyOffer = () => {
-        // Set the next available time to 48 hours from now
-        const nextAvailable = new Date().getTime() + (48 * 60 * 60 * 1000);
-        localStorage.setItem('jaipy_discount_popup_next_available', nextAvailable.toString());
-        localStorage.removeItem('jaipy_discount_popup_end_time'); // Clear the old timer
-        setIsVisible(false);
-    };
-
-    useEffect(() => {
-        if (!isVisible || timeLeft <= 0) return;
-
-        const intervalId = setInterval(() => {
-            setTimeLeft((prev) => {
-                if (prev <= 1) {
-                    clearInterval(intervalId);
-                    consumeDailyOffer();
-                    return 0;
-                }
-                return prev - 1;
-            });
-        }, 1000);
-
-        return () => clearInterval(intervalId);
-    }, [isVisible, timeLeft]);
-
     const handleClose = () => {
-        consumeDailyOffer();
-    };
-
-    const formatTime = (seconds: number) => {
-        const m = Math.floor(seconds / 60);
-        const s = seconds % 60;
-        return `${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
+        setIsVisible(false);
     };
 
     if (!isMounted) return null;
 
-    const whatsappMessage = encodeURIComponent("¡Hola! Vengo del catálogo y quiero aprovechar mi descuento del 10% en mi primera compra en los próximos 10 minutos.");
+    const whatsappMessage = encodeURIComponent("¡Hola! Vengo del catálogo y quiero aprovechar el descuento del 10% en mi compra.");
     const whatsappLink = `https://wa.me/595991712966?text=${whatsappMessage}`;
 
     return (
@@ -102,9 +40,9 @@ const DiscountPopup = () => {
                     <div className="relative bg-zinc-900 border border-[#FFCC00]/50 shadow-[0_10px_40px_rgba(0,0,0,0.8),0_0_20px_rgba(255,204,0,0.15)] rounded-2xl overflow-hidden backdrop-blur-xl">
                         {/* Decorative Top Bar */}
                         <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#FFCC00] to-yellow-600" />
-                        
+
                         {/* Close Button */}
-                        <button 
+                        <button
                             onClick={handleClose}
                             className="absolute top-3 right-3 text-zinc-400 hover:text-white transition-colors p-1"
                             aria-label="Cerrar oferta"
@@ -114,33 +52,19 @@ const DiscountPopup = () => {
 
                         <div className="p-5">
                             {/* Header */}
-                            <div className="flex items-start gap-3 mb-3">
-                                <div className="bg-[#FFCC00]/20 p-2 rounded-lg text-[#FFCC00]">
+                            <div className="flex items-start gap-3 mb-4">
+                                <div className="bg-[#FFCC00]/20 p-2 rounded-lg text-[#FFCC00] shrink-0">
                                     <Tag size={24} />
                                 </div>
                                 <div>
                                     <h3 className="text-white font-black uppercase tracking-tight leading-tight">
                                         ¡10% de Descuento!
                                     </h3>
-                                    <p className="text-zinc-400 text-xs">
-                                        En tu próxima compra.
+                                    <p className="text-zinc-400 text-xs mt-0.5">
+                                        En tu compra. ¡Escribinos y aprovechá la oferta!
                                     </p>
                                 </div>
                             </div>
-
-                            {/* Timer */}
-                            <div className="bg-black/50 border border-zinc-800 rounded-xl p-3 mb-4 flex items-center justify-between">
-                                <span className="text-xs font-bold text-zinc-300 uppercase tracking-wider">La oferta expira en:</span>
-                                <div className="flex items-center gap-1.5 text-[#FFCC00] font-mono text-lg font-bold">
-                                    <Clock size={16} className="animate-pulse" />
-                                    <span>{formatTime(timeLeft)}</span>
-                                </div>
-                            </div>
-
-                            {/* Warning / Condition */}
-                            <p className="text-[10px] text-zinc-500 text-center mb-4 uppercase tracking-widest px-2">
-                                * Válido para una sola compra.
-                            </p>
 
                             {/* CTA */}
                             <motion.a
