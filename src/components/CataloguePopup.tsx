@@ -59,7 +59,7 @@ const CataloguePopup = () => {
                                         ¡Explora Nuestro Catálogo!
                                     </h3>
                                     <p className="text-zinc-400 text-xs mt-0.5">
-                                        Descubrí todos nuestros productos y encontrá lo que necesitás.
+                                        Descubre todos nuestros productos y encuentra lo que necesitás.
                                     </p>
                                 </div>
                             </div>

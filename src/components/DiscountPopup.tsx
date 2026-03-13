@@ -61,7 +61,7 @@ const DiscountPopup = () => {
                                         ¡10% de Descuento!
                                     </h3>
                                     <p className="text-zinc-400 text-xs mt-0.5">
-                                        En tu compra. ¡Escribinos y aprovechá la oferta!
+                                        ¡Escribinos y aprovechá la oferta!
                                     </p>
                                 </div>
                             </div>
