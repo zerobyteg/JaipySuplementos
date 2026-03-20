@@ -1,6 +1,24 @@
+export type ProductWeight =
+    | '2 LBS'
+    | '5 LBS'
+    | '300g'
+    | '1kg'
+    | '405g'
+    | '25mg'
+    | '50mg'
+    | '30 caps'
+    | '60 caps'
+    | '90 caps'
+    | '120 caps'
+    | '180 caps'
+    | 'Liquid'
+    | 'Unflavored'
+    | '450G'
+    | '900G';
+
 export interface ProductVariant {
     id: string;
-    weight: '2 LBS' | '5 LBS' | '300g' | '1kg' | '405g' | '25mg' | '50mg' | '30 caps' | '60 caps' | '90 caps' | '120 caps' | '180 caps' | 'Liquid' | 'Unflavored';
+    weight: ProductWeight;
     price: string;
     imageFileName: string;
 }

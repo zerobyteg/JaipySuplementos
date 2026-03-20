@@ -10,8 +10,20 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://suplementos.jairokov.com"),
   title: "Jaipy Suplementos",
   description: "Tu destino premium para la suplementación deportiva de alto rendimiento.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "Jaipy Suplementos",
+    description: "Tu destino premium para la suplementación deportiva de alto rendimiento.",
+    url: "https://suplementos.jairokov.com",
+    siteName: "Jaipy Suplementos",
+    locale: "es_PY",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
