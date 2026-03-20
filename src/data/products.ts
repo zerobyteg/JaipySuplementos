@@ -272,7 +272,7 @@ export const products: Product[] = [
     },
     {
         id: '18',
-        folder: 'hydro-definition stevia',
+        folder: 'hydro-definition-stevia',
         name: 'Hydro Definition Stevia - Chocolate',
         description: HydroDefinitionDescription,
         variants: [
@@ -281,7 +281,7 @@ export const products: Product[] = [
     },
     {
         id: '19',
-        folder: 'hydro-definition stevia',
+        folder: 'hydro-definition-stevia',
         name: 'Hydro Definition Stevia - Strawberry',
         description: HydroDefinitionDescription,
         variants: [
@@ -344,7 +344,7 @@ export const products: Product[] = [
     },
     {
         id: '26',
-        folder: 'barritas landerbar protein',
+        folder: 'barritas-landerbar-protein',
         name: 'Landerbar Protein - Fresa',
         description: LanderbarProteinDescription,
         variants: [
@@ -353,7 +353,7 @@ export const products: Product[] = [
     },
     {
         id: '27',
-        folder: 'barritas landerbar protein',
+        folder: 'barritas-landerbar-protein',
         name: 'Landerbar Protein - Banana',
         description: LanderbarProteinDescription,
         variants: [
@@ -362,7 +362,7 @@ export const products: Product[] = [
     },
     {
         id: '28',
-        folder: 'barritas landerbar protein',
+        folder: 'barritas-landerbar-protein',
         name: 'Landerbar Protein - Dulce de Leche',
         description: LanderbarProteinDescription,
         variants: [
@@ -371,7 +371,7 @@ export const products: Product[] = [
     },
     {
         id: '29',
-        folder: 'crokwhey landerfit',
+        folder: 'crokwhey-landerfit',
         name: 'Crokwhey - Banoffee',
         description: CrokwheyDescription,
         variants: [
@@ -380,7 +380,7 @@ export const products: Product[] = [
     },
     {
         id: '30',
-        folder: 'crokwhey landerfit',
+        folder: 'crokwhey-landerfit',
         name: 'Crokwhey - Brigadeiro',
         description: CrokwheyDescription,
         variants: [
@@ -389,7 +389,7 @@ export const products: Product[] = [
     },
     {
         id: '31',
-        folder: 'crokwhey landerfit',
+        folder: 'crokwhey-landerfit',
         name: 'Crokwhey - Cookies and Cream',
         description: CrokwheyDescription,
         variants: [
@@ -398,7 +398,7 @@ export const products: Product[] = [
     },
     {
         id: '32',
-        folder: 'crokwhey landerfit',
+        folder: 'crokwhey-landerfit',
         name: 'Crokwhey - Dulce de Leche',
         description: CrokwheyDescription,
         variants: [
@@ -425,7 +425,7 @@ export const products: Product[] = [
     },
     {
         id: '35',
-        folder: 'wheyshake landerfit',
+        folder: 'wheyshake-landerfit',
         name: 'Wheyshake - Banoffee',
         description: WheyShakeDescription,
         variants: [
@@ -434,7 +434,7 @@ export const products: Product[] = [
     },
     {
         id: '36',
-        folder: 'wheyshake landerfit',
+        folder: 'wheyshake-landerfit',
         name: 'Wheyshake - Coconut Tropical Fruit',
         description: WheyShakeDescription,
         variants: [
@@ -443,7 +443,7 @@ export const products: Product[] = [
     },
     {
         id: '37',
-        folder: 'wheyshake landerfit',
+        folder: 'wheyshake-landerfit',
         name: 'Wheyshake - Cookies and Cream',
         description: WheyShakeDescription,
         variants: [
@@ -452,7 +452,7 @@ export const products: Product[] = [
     },
     {
         id: '38',
-        folder: 'wheyshake landerfit',
+        folder: 'wheyshake-landerfit',
         name: 'Wheyshake - Dulce de Leche',
         description: WheyShakeDescription,
         variants: [
@@ -461,7 +461,7 @@ export const products: Product[] = [
     },
     {
         id: '39',
-        folder: 'wheyshake landerfit',
+        folder: 'wheyshake-landerfit',
         name: 'Wheyshake - Hazelnut Chocolate',
         description: WheyShakeDescription,
         variants: [
@@ -470,7 +470,7 @@ export const products: Product[] = [
     },
     {
         id: '40',
-        folder: 'wheyshake landerfit',
+        folder: 'wheyshake-landerfit',
         name: 'Wheyshake - Red Berry Yogurt',
         description: WheyShakeDescription,
         variants: [
@@ -497,7 +497,7 @@ export const products: Product[] = [
     },
     {
         id: '43',
-        folder: 'Resistencia y recuperacion/BCAA revolution',
+        folder: 'resistencia-y-recuperacion/bcaa-revolution',
         name: 'BCAA Revolution - Blue Raspberry',
         description: bcaaDescription,
         variants: [
@@ -506,7 +506,7 @@ export const products: Product[] = [
     },
     {
         id: '44',
-        folder: 'Resistencia y recuperacion/BCAA revolution',
+        folder: 'resistencia-y-recuperacion/bcaa-revolution',
         name: 'BCAA Revolution - Green Apple',
         description: bcaaDescription,
         variants: [
@@ -515,7 +515,7 @@ export const products: Product[] = [
     },
     {
         id: '45',
-        folder: 'Resistencia y recuperacion/BCAA revolution',
+        folder: 'resistencia-y-recuperacion/bcaa-revolution',
         name: 'BCAA Revolution - Lemon Lime',
         description: bcaaDescription,
         variants: [
@@ -542,7 +542,7 @@ export const products: Product[] = [
     },
     {
         id: '48',
-        folder: 'Resistencia y recuperacion/Creatina',
+        folder: 'resistencia-y-recuperacion/creatina',
         name: 'Creatine',
         description: creatineUSADescription,
         variants: [
@@ -588,7 +588,7 @@ export const products: Product[] = [
     },
     {
         id: '54',
-        folder: 'Resistencia y recuperacion/amino revolution',
+        folder: 'resistencia-y-recuperacion/amino-revolution',
         name: 'Amino Revolution - Fruit Punch',
         description: aminoRevolutionDescription,
         variants: [
@@ -597,7 +597,7 @@ export const products: Product[] = [
     },
     {
         id: '55',
-        folder: 'Resistencia y recuperacion/amino revolution',
+        folder: 'resistencia-y-recuperacion/amino-revolution',
         name: 'Amino Revolution - Grape',
         description: aminoRevolutionDescription,
         variants: [
@@ -606,7 +606,7 @@ export const products: Product[] = [
     },
     {
         id: '56',
-        folder: 'Resistencia y recuperacion/amino revolution',
+        folder: 'resistencia-y-recuperacion/amino-revolution',
         name: 'Amino Revolution - Green Apple',
         description: aminoRevolutionDescription,
         variants: [
@@ -615,7 +615,7 @@ export const products: Product[] = [
     },
     {
         id: '57',
-        folder: 'Resistencia y recuperacion/amino revolution',
+        folder: 'resistencia-y-recuperacion/amino-revolution',
         name: 'Amino Revolution - Raspberry Lemonade',
         description: aminoRevolutionDescription,
         variants: [
@@ -624,7 +624,7 @@ export const products: Product[] = [
     },
     {
         id: '58',
-        folder: 'Resistencia y recuperacion/amino revolution',
+        folder: 'resistencia-y-recuperacion/amino-revolution',
         name: 'Amino Revolution - Coconut',
         description: aminoRevolutionDescription,
         variants: [
@@ -643,7 +643,7 @@ export const products: Product[] = [
 
     {
         id: '62',
-        folder: 'Resistencia y recuperacion/glucosamina',
+        folder: 'resistencia-y-recuperacion/glucosamina',
         name: 'GLUCOSAMINE Y CHONDROITIN CON MSM',
         description: glucosamineDescription,
         variants: [
@@ -652,7 +652,7 @@ export const products: Product[] = [
     },
     {
         id: '63',
-        folder: 'Resistencia y recuperacion/muscle pump',
+        folder: 'resistencia-y-recuperacion/muscle-pump',
         name: 'Muscle Pump - Fruit Punch',
         description: musclePumpDescription,
         variants: [
@@ -661,7 +661,7 @@ export const products: Product[] = [
     },
     {
         id: '64',
-        folder: 'Resistencia y recuperacion/muscle pump',
+        folder: 'resistencia-y-recuperacion/muscle-pump',
         name: 'Muscle Pump - Key Lime Ice',
         description: musclePumpDescription,
         variants: [
@@ -670,7 +670,7 @@ export const products: Product[] = [
     },
     {
         id: '65',
-        folder: 'Resistencia y recuperacion/testolander booster',
+        folder: 'resistencia-y-recuperacion/testolander-booster',
         name: 'Testolander Booster',
         description: testolanderBoosterDescription,
         variants: [
@@ -679,7 +679,7 @@ export const products: Product[] = [
     },
     {
         id: '66',
-        folder: 'Resistencia y recuperacion/tribulus',
+        folder: 'resistencia-y-recuperacion/tribulus',
         name: 'Tribulus Terrestris',
         description: tribulusTerrestrisDescription,
         variants: [
@@ -688,7 +688,7 @@ export const products: Product[] = [
     },
     {
         id: '67',
-        folder: 'Resistencia y recuperacion/ultra glutamine',
+        folder: 'resistencia-y-recuperacion/ultra-glutamine',
         name: 'Ultra Glutamine',
         description: ultraGlutamineDescription,
         variants: [
