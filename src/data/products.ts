@@ -524,7 +524,7 @@ export const products: Product[] = [
     },
     {
         id: '46',
-        folder: 'Resistencia y recuperacion/BCAA revolution',
+        folder: 'resistencia-y-recuperacion/bcaa-revolution',
         name: 'BCAA Revolution - Pineapple',
         description: bcaaDescription,
         variants: [
@@ -533,7 +533,7 @@ export const products: Product[] = [
     },
     {
         id: '47',
-        folder: 'Resistencia y recuperacion/BCAA revolution',
+        folder: 'resistencia-y-recuperacion/bcaa-revolution',
         name: 'BCAA Revolution - Watermelon',
         description: bcaaDescription,
         variants: [
@@ -551,7 +551,7 @@ export const products: Product[] = [
     },
     {
         id: '49',
-        folder: 'Resistencia y recuperacion/Creatina',
+        folder: 'resistencia-y-recuperacion/creatina',
         name: 'Creatine BR',
         description: creatineBRDescription,
         variants: [
@@ -561,7 +561,7 @@ export const products: Product[] = [
     },
     {
         id: '51',
-        folder: 'Resistencia y recuperacion/Creatina',
+        folder: 'resistencia-y-recuperacion/creatina',
         name: 'L-Carnitine - Cola',
         description: lcreatineDescription,
         variants: [
@@ -570,7 +570,7 @@ export const products: Product[] = [
     },
     {
         id: '52',
-        folder: 'Resistencia y recuperacion/Creatina',
+        folder: 'resistencia-y-recuperacion/creatina',
         name: 'L-Carnitine - Grape',
         description: lcreatineDescription,
         variants: [
@@ -579,7 +579,7 @@ export const products: Product[] = [
     },
     {
         id: '53',
-        folder: 'Resistencia y recuperacion/Creatina',
+        folder: 'resistencia-y-recuperacion/creatina',
         name: 'L-Carnitine - Orange',
         description: lcreatineDescription,
         variants: [
@@ -633,7 +633,7 @@ export const products: Product[] = [
     },
     {
         id: '59',
-        folder: 'Resistencia y recuperacion/amino revolution',
+        folder: 'resistencia-y-recuperacion/amino-revolution',
         name: 'Amino Revolution - Tangerine',
         description: aminoRevolutionDescription,
         variants: [
